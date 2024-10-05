@@ -1,0 +1,338 @@
+body {
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+body.body_june-2024 {
+    background-color: bisque;
+    background-image: url(../img/background.gif);
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: red;
+}
+
+h1, .h1 {
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    font-weight: bold;
+}
+
+h2, .h2 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    font-weight: bold;
+}
+
+h3, .h3 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-weight: bold;
+}
+
+h4, .h4 {
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    font-weight: bold;
+}
+
+h5, .h5 {
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    font-weight: bold;
+}
+
+h6, .h6 {
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    font-weight: bold;
+}
+
+.wrapper {
+    /* width: 800px; */
+    padding: 1em;
+}
+
+.clear {
+    clear: both;
+}
+
+.aside {
+    position: absolute;
+    width: 24%;
+}
+
+.main {
+    margin-left: 26%;
+}
+
+.charset {
+    margin: 0.25em 0 1em 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.charset > span {
+    background: black;
+    color: white;
+    padding: 0 5px;
+}
+
+.inner {
+    padding: 1em;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menu ul li {
+    margin: 0;
+}
+
+.menu ul li + li {
+    margin-top: 0.5em;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 0.5em 1em;
+    font-size: larger;
+    /* border: 3px outset white;
+    background: bisque;
+    color: blue;*/
+    border: 3px outset darksalmon;
+    background: rosybrown;
+    color: white;
+}
+
+.menu ul li a:hover {
+    background: burlywood;
+    color: red;
+}
+
+.marquee {
+    margin: 1em 0;
+    font-size: 14px;
+    padding: 0.25em 0;
+    font-family: monospace;
+    background: black;
+    color: lightgreen;
+    border: 3px inset grey;
+}
+
+.marquee-space {
+    display: inline-block;
+    width: 100px;
+}
+
+.joke {
+    padding: 1em 0;
+}
+
+.footer {
+    margin-top: 2em;
+}
+
+.copyright {
+    margin-top: 0.5em;
+}
+
+.counter {
+
+}
+
+.counter > img {
+    vertical-align: bottom;
+}
+
+.date {
+    color: darkred;
+    font-style: italic;
+}
+
+.row {
+
+}
+
+.row .col {
+    width: 48%;
+}
+
+.row .col.col_left {
+    float: left;
+}
+
+.row .col.col_right {
+    float: right;
+}
+
+li + li {
+    margin-top: 1em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.small {
+    font-size: small;
+}
+
+.smaller {
+    font-size: smaller;
+}
+
+.large {
+    font-size: large;
+}
+
+.larger {
+    font-size: larger;
+}
+
+.grey {
+    color: grey;
+}
+
+.italic {
+    font-style: italic;
+}
+
+button {
+    border: 2px outset white;
+    background: silver;
+}
+
+button:active {
+    border: 2px inset white;
+}
+
+form {
+
+}
+
+hr {
+    margin: 3em 0;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+fieldset + fieldset {
+    margin-top: 0.5em;
+}
+
+.box + .box {
+    margin-top: 3em;
+}
+
+.poll {
+    border: 3px outset white;
+    background: antiquewhite;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.photo-preview {
+    display: inline-block;
+    /* float: left; */
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+/* .photo-preview:nth-child(4n + 1) {
+    clear: left;
+} */
+
+.photo-preview a img {
+    display: block;
+    border: 1px solid blue;
+    padding: 2px;
+    width: 160px;
+}
+
+.photo-preview a:visited img {
+    border-color: #551a8b;
+}
+
+.photo-preview a:hover img {
+    border-color: red;
+}
+
+.calendar {
+    border: 3px outset white;
+    background: antiquewhite;
+    margin-top: 1em;
+    padding: 1em;
+    background: antiquewhite;
+}
+
+.calendar table {
+    width: 100%;
+}
+
+.calendar table td,
+.calendar table th {
+    width: 14.28%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.calendar table td {
+    background: burlywood;
+    border: 2px inset white;
+}
+
+.calendar td.today {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+
+.calendar td.space {
+    background: transparent;
+    border-color: transparent;
+}
+
+.calendar .title {
+    text-align: center;
+}
+
+.recipe {
+
+}
+
+.recipe__aside {
+    width: 30%;
+    float: right;
+    padding: 1em;
+    border: 3px outset white;
+    background: antiquewhite;
+}
+
+.post img {
+    width: 100%;
+}
