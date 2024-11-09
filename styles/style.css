@@ -336,3 +336,24 @@ fieldset + fieldset {
 .post img {
     width: 100%;
 }
+
+.countdown-banner {
+    background-image: url(../img/gif/snowflakes.gif);
+    background-position: center;
+    padding: 20px 50px;
+}
+
+.countdown-banner table {
+    width: 100%;
+}
+
+.countdown-banner__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: red;
+}
+
+.countdown-banner__dates {
+    font-size: 24px;
+    margin-top: 20px;
+}
