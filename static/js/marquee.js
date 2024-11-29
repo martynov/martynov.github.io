@@ -12,9 +12,8 @@ var marquee = function () {
     var news = new Array(
         today,
         time,
-        'Сейчас читаю: Салтыков-Щедрин, Сказки',
         'Загруженность работой: средняя',
-        'Связаться со мной можно по ICQ 950-4330 или по факсу, номер будет предоставлен по запросу'
+        'Связаться со мной можно по ICQ 950-4330 или по факсу, номер будет предоставлен по запросу',
     );
 
     document.getElementById('marquee').innerHTML = news.join('<div class="marquee-space"></div>');

@@ -260,7 +260,7 @@ fieldset + fieldset {
     display: inline-block;
     /* float: left; */
     margin-right: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 /* .photo-preview:nth-child(4n + 1) {
@@ -369,5 +369,182 @@ fieldset + fieldset {
 }
 
 blockquote {
+    margin: 30px 0;
+    padding: 30px;
+    background-color: bisque;
     font-style: italic;
+    color: brown;
+}
+
+.blockquote {
+    margin: 30px 0;
+    padding: 30px;
+    background-color: bisque;
+}
+
+.blockquote__blockquote {
+    font-style: italic;
+    color: brown;
+}
+
+.blockquote__source {
+    clear: both;
+    text-align: right;
+    margin-top: 20px;
+    color: #999;
+}
+
+.book-row {
+    margin: 30px 0;
+    padding: 30px;
+    border: 6px double rosybrown;
+    background-color: antiquewhite;
+}
+
+.book-row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.book-row__thumbnail {
+    height: 200px;
+    float: right;
+    margin: -30px -30px -30px 30px;
+}
+
+.book-row__title {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.book-row__year {
+
+}
+
+.book-row__author {
+    margin-top: 8px;
+    color: darkred;
+}
+
+.book-row__menu {
+    margin-top: 8px;
+}
+
+.book-row__counters {
+    margin-top: 12px;
+    color: grey;
+}
+
+.review-preview {
+    margin: 30px 0;
+    padding: 30px;
+    border: 6px double rosybrown;
+    background-color: antiquewhite;
+}
+
+.review-preview::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.review-preview__title {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.review-preview__year {
+
+}
+
+.review-preview__author {
+    margin-top: 8px;
+    color: darkred;
+}
+
+.review-preview__menu {
+    margin-top: 8px;
+}
+
+.single-review {
+
+}
+
+.single-review__title {
+
+}
+
+.single-review__book {
+    
+}
+
+.single-review__content {
+
+}
+
+.single-review__quotes {
+
+}
+
+.single-review__quotes-list {
+
+}
+
+.single-review__quote {
+
+}
+
+.books-previews-list {
+
+}
+
+.books-previews-list__item {
+    width: 30%;
+    float: left;
+    padding-right: 5%;
+    margin-bottom: 5%;
+}
+
+.books-previews-list__item:nth-child(3n) {
+    padding-right: 0;
+}
+
+.books-previews-list__item:nth-child(3n+1) {
+    clear: left;
+}
+
+.books-previews-list__date {
+    margin-top: 5px;
+}
+
+.book-preview {
+
+}
+
+.book-preview__thumbnail {
+    display: block;
+    margin-bottom: 10px;
+    height: 160px;
+    width: auto;
+    font-size: 0;
+}
+
+.book-preview__thumbnail > img {
+    display: block;
+}
+
+.book-preview__thumbnail.book-preview__thumbnail_empty {
+    width: 120px;
+    border: 1px solid black;
+}
+
+.book-preview__title {
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.book-preview__content {
+
 }
