@@ -548,3 +548,7 @@ blockquote {
 .book-preview__content {
 
 }
+
+.breadcrumbs {
+    margin: 30px 0;
+}
