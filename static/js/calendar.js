@@ -57,7 +57,7 @@ var calendar = function () {
 
     function drawCal(firstDay, lastDate, date, monthName, year) {
         var text = "";
-        text += '<div class="title h2">';
+        text += '<div class="title larger bold">';
         text +=	monthName + ' ' + year;
         text += '</div>';
         text += '<table cellspacing="3">';

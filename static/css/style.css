@@ -1,9 +1,18 @@
+@media print {
+    html, body {
+        display: none;
+    }
+}
+
 body {
     /* font-family: 'Times New Roman', Times, serif; */
     font-family: "Comic Sans MS", "ComicSansMS", "Comic Sans", "Chalkboard", "ChalkboardSE-Regular", "Comic Relief";
-    font-size: 14px;
-    margin: 0 0 50px;
+    font-size: medium;
+    line-height: 1.6;
+    /* margin: 0 auto; */
+    margin: 0;
     padding: 0;
+    max-width: 1400px;
 }
 
 body.body_june-2024 {
@@ -66,26 +75,30 @@ h6, .h6 {
 
 .wrapper {
     /* width: 800px; */
-    padding: 1em;
+    padding: 20px;
 }
 
 .clear {
     clear: both;
 }
 
-.aside {
-    position: absolute;
-    width: 24%;
-}
+@media screen and (min-width: 800px) {
+    .aside {
+        /* position: absolute; */
+        width: 280px;
+        float: left;
+    }
 
-.main {
-    margin-left: 26%;
+    .main {
+        margin-left: 300px;
+    }
 }
 
 .charset {
     margin: 0.25em 0 1em 0;
     font-weight: bold;
     text-align: center;
+    font-size: smaller;
 }
 
 .charset > span {
@@ -116,10 +129,10 @@ h6, .h6 {
 .menu ul li a {
     display: block;
     padding: 0.5em 1em;
-    font-size: larger;
+    /* font-size: larger; */
     /* border: 3px outset white;
     background: bisque;
-    color: blue;*/
+    color: blue; */
     border: 3px outset darksalmon;
     background: rosybrown;
     color: white;
@@ -132,7 +145,6 @@ h6, .h6 {
 
 .marquee {
     margin: 1em 0;
-    font-size: 14px;
     padding: 0.25em 0;
     font-family: monospace;
     background: black;
@@ -150,11 +162,15 @@ h6, .h6 {
 }
 
 .footer {
-    margin-top: 2em;
+    border: 3px outset white;
+    background: antiquewhite;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: smaller;
 }
 
 .copyright {
-    margin-top: 0.5em;
+    margin-top: 10px;
 }
 
 .counter {
@@ -292,6 +308,7 @@ fieldset + fieldset {
 
 .calendar table {
     width: 100%;
+    font-size: small;
 }
 
 .calendar table td,
@@ -340,7 +357,7 @@ fieldset + fieldset {
 .countdown-banner {
     background-image: url("/static/img/gif/snowflakes.gif");
     background-position: center;
-    padding: 20px 50px;
+    padding: 20px 20px;
 }
 
 .countdown-banner table {
@@ -348,14 +365,14 @@ fieldset + fieldset {
 }
 
 .countdown-banner__title {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: bold;
     color: red;
 }
 
 .countdown-banner__dates {
-    font-size: 24px;
-    margin-top: 20px;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .spoiler {
@@ -374,6 +391,7 @@ blockquote {
     background-color: bisque;
     font-style: italic;
     color: brown;
+    font-size: larger;
 }
 
 .blockquote {
@@ -385,6 +403,7 @@ blockquote {
 .blockquote__blockquote {
     font-style: italic;
     color: brown;
+    /* font-size: larger; */
 }
 
 .blockquote__source {
@@ -404,7 +423,7 @@ blockquote {
 .book-row::after {
     content: "";
     display: block;
-    clear: both;
+    clear: right;
 }
 
 .book-row__thumbnail {
@@ -414,7 +433,7 @@ blockquote {
 }
 
 .book-row__title {
-    font-size: 120%;
+    font-size: larger;
     font-weight: bold;
 }
 
@@ -446,11 +465,11 @@ blockquote {
 .review-preview::after {
     content: "";
     display: block;
-    clear: both;
+    clear: right;
 }
 
 .review-preview__title {
-    font-size: 120%;
+    font-size: larger;
     font-weight: bold;
 }
 
@@ -508,10 +527,11 @@ blockquote {
 
 .books-previews-list__item:nth-child(3n) {
     padding-right: 0;
+    clear: right;
 }
 
 .books-previews-list__item:nth-child(3n+1) {
-    clear: left;
+    /* clear: left; */
 }
 
 .books-previews-list__date {
@@ -540,7 +560,7 @@ blockquote {
 }
 
 .book-preview__title {
-    font-size: 120%;
+    font-size: larger;
     font-weight: bold;
     margin-bottom: 5px;
 }

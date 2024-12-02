@@ -9,6 +9,7 @@
         <script src="/static/js/calendar.js"></script>
         <script src="/static/js/vote.js"></script>
         <script src="/static/js/countdown-banner.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" href="https://st.fontstorage.com/font/import/comicrelief.css" media="all" onload="this.media='all'">
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
@@ -35,108 +36,93 @@
             
 
 <div class="aside">
-    <div class="inner">
-        <div class="logo">
-            <a href="/">
-                <img src="/static/img/logo.gif" width="100%"/>
-            </a>
-        </div>
+    <div class="logo">
+        <a href="/">
+            <img src="/static/img/logo.gif" width="100%"/>
+        </a>
+    </div>
 
-        <div class="charset">
-            [
-                <a href="#KOI-8">KOI-8</a>
-                |
-                <a href="#MAC">MAC</a>
-                |
-                <a href="#WIN">WIN</a>
-                |
-                <a href="#DOS">DOS</a>
-                |
-                <a href="#LAT">LAT</a>
-            ]
-        </div>
+    <div class="charset">
+        [
+            <a href="#KOI-8">KOI-8</a>
+            |
+            <a href="#MAC">MAC</a>
+            |
+            <a href="#WIN">WIN</a>
+            |
+            <a href="#DOS">DOS</a>
+            |
+            <a href="#LAT">LAT</a>
+        ]
+    </div>
 
-        <div class="marquee">
-            <marquee id="marquee"></marquee>
-        </div>
+    <div class="marquee">
+        <marquee id="marquee"></marquee>
+    </div>
 
-        <div class="menu">
-            <!-- <div class="h2">Меню:</div> -->
-            <ul>
-                <li>
-                    <a href="/">Главная</a>
-                </li>
-                <li>
-                    <a href="/weblog/">
-                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                        WEBLOG
-                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                    </a>
-                </li>
-                <li>
-                    <a href="/recipes/">Рецепты</a>
-                </li>
-                <li>
-                    <a href="/jokes/">Анекдоты</a>
-                </li>
-                <li>
-                    <a href="/lib/">Прочитано</a>
-                </li>
-                <li>
-                    <a href="/links/">Полезные ссылки</a>
-                </li>
-                <li>
-                    <a href="/guest/">Гостевая книга</a>
-                </li>
-            </ul>
-        </div>
+    <div class="menu">
+        <!-- <div class="larger bold">Меню:</div> -->
+        <ul>
+            <li>
+                <a href="/">Главная</a>
+            </li>
+            <li>
+                <a href="/weblog/">
+                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                    WEBLOG
+                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                </a>
+            </li>
+            <li>
+                <a href="/lib/">Прочитано</a>
+            </li>
+            <li>
+                <a href="/recipes/">Рецепты</a>
+            </li>
+            <li>
+                <a href="/jokes/">Анекдоты</a>
+            </li>
+            <li>
+                <a href="/links/">Полезные ссылки</a>
+            </li>
+            <li>
+                <a href="/guest/">Гостевая книга</a>
+            </li>
+        </ul>
+    </div>
 
-        <div class="poll">
-            <div class="h2">Вам нравится мой сайт?</div>
-            <div>
-                <form>
-                    <fieldset>
-                        <input type="radio" name="rate" value="5" id="rate-5" />
-                        <label for="rate-5">Очень нравится!!!</label>
-                    </fieldset>
-                    <fieldset>
-                        <input type="radio" name="rate" value="4" id="rate-4" />
-                        <label for="rate-4">Хороший сайт...</label>
-                    </fieldset>
-                    <fieldset>
-                        <input type="radio" name="rate" value="3" id="rate-3" />
-                        <label for="rate-3">Средне!</label>
-                    </fieldset>
-                    <fieldset>
-                        <input type="radio" name="rate" value="2" id="rate-2" />
-                        <label for="rate-2">Мне не нравится!</label>
-                    </fieldset>
-                    <fieldset>
-                        <input type="radio" name="rate" value="1" id="rate-1" />
-                        <label for="rate-1">Сайт полный отстой!!!</label>
-                    </fieldset>
-                    <fieldset>
-                        <button type="button" onClick="vote()">Проголосовать</button>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-
-        <div class="calendar" id="calendar"></div>
-        
-        <div class="footer">
-            <div>
-                <img src="/static/img/gif/PoweredByMacOSX.gif" />
-            </div>
-            <div class="counters">
-                <img src="/static/img/counters/aport.gif" />
-                <img src="/static/img/counters/rambler.gif" />
-                <img src="/static/img/counters/liveinternet.gif" />
-                <img src="/static/img/counters/mailru2.gif" />
-            </div>
-            <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+    <div class="poll">
+        <div class="larger bold">Вам нравится мой сайт?</div>
+        <div>
+            <form>
+                <fieldset>
+                    <input type="radio" name="rate" value="5" id="rate-5" />
+                    <label for="rate-5">Очень нравится!!!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="4" id="rate-4" />
+                    <label for="rate-4">Хороший сайт...</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="3" id="rate-3" />
+                    <label for="rate-3">Средне!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="2" id="rate-2" />
+                    <label for="rate-2">Мне не нравится!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="1" id="rate-1" />
+                    <label for="rate-1">Сайт полный отстой!!!</label>
+                </fieldset>
+                <fieldset>
+                    <button type="button" onClick="vote()">Проголосовать</button>
+                </fieldset>
+            </form>
         </div>
     </div>
+
+    <div class="calendar" id="calendar"></div>
 </div>
 
             <div class="main">
@@ -200,8 +186,8 @@
         <div class="blockquote">
     <div class="blockquote__blockquote">
         
-        <p>Но представителей местной интеллигенции даже эта суровая обстановка уже не удовлетворяла. Она удовлетворяла лишь внешним образом, но настоящего уязвления не доставляла. Конечно, они не высказывали этого публично и даже в точности исполняли обрядовую сторону жизни, но это была только внешность, с помощью которой они льстили народным страстям. Ходя по улицам …
-        <a href="/lib/quotes/8/">Читать&nbsp;далее&nbsp;>>></a>
+        <p>Он [Дю Шарио] веселился без устали, почти ежедневно устроивал маскарады, одевался дебардером, танцевал канкан и в особенности любил интриговать мужчин. Мастерски пел он гривуазные песенки и уверял, что этим песням научил его граф д’Артуа (впоследствии французский король Карл X), во время пребывания в Риге. Ел сначала все, что попало, но …
+        <a href="/lib/quotes/13/">Читать&nbsp;далее&nbsp;>>></a>
         
         
     </div>
@@ -213,34 +199,8 @@
         <div class="blockquote">
     <div class="blockquote__blockquote">
         
-        <p>В то время существовало мнение, что градоначальник есть хозяин города, обыватели же суть как бы его гости. Разница между &quot;хозяином&quot; в общепринятом значении этого слова и &quot;хозяином города&quot; полагалась лишь в том, что последний имел право сечь своих гостей, что относительно хозяина обыкновенного приличиями не допускалось. Грустилов вспомнил об этом …
-        <a href="/lib/quotes/5/">Читать&nbsp;далее&nbsp;>>></a>
-        
-        
-    </div>
-    
-</div>
-    </div>
-    
-    <div class="blockquotes-list__item">
-        <div class="blockquote">
-    <div class="blockquote__blockquote">
-        
-        <p>Еще задолго до прибытия в Глупов он уже составил в своей голове целый систематический бред, в котором, до последней мелочи, были регулированы все подробности будущего устройства этой злосчастной муниципии. На основании этого бреда вот в какой приблизительно форме представлялся тот город, который он вознамерился возвести на степень образцового.</p> <p>Посредине — …
-        <a href="/lib/quotes/12/">Читать&nbsp;далее&nbsp;>>></a>
-        
-        
-    </div>
-    
-</div>
-    </div>
-    
-    <div class="blockquotes-list__item">
-        <div class="blockquote">
-    <div class="blockquote__blockquote">
-        
-        <p>Как бы то ни было, но назначение Микаладзе было для глуповцев явлением в высшей степени отрадным. Предместник его, капитан Негодяев, хотя и не обладал так называемым &quot;сущим&quot; злонравием, но считал себя человеком убеждения (летописец везде, вместо слова &quot;убеждения&quot;, ставит слово &quot;норов&quot;), и в этом качестве постоянно испытывал, достаточно ли глуповцы …
-        <a href="/lib/quotes/4/">Читать&nbsp;далее&nbsp;>>></a>
+        <p>Из века в век цепенеет грозная, неподвижная громада полей, словно силу сказочную в плену у себя сторожит. Кто освободит эту силу из плена? кто вызовет ее на свет? Двум существам выпала на долю эта задача: мужику да Коняге. И оба от рождения до могилы над этой задачей бьются, пот проливают …
+        <a href="/lib/quotes/16/">Читать&nbsp;далее&nbsp;>>></a>
         
         
     </div>
@@ -261,6 +221,32 @@
 </div>
     </div>
     
+    <div class="blockquotes-list__item">
+        <div class="blockquote">
+    <div class="blockquote__blockquote">
+        
+        <p>Долго памятен был указ, которым Двоекуров возвещал обывателям об открытии пивоваренного завода и разъяснял вред водки и пользу пива. «Водка, — говорилось в том указе, — не токмо не вселяет веселонравия, как многие полагают, но, при довольном употреблении, даже отклоняет от оного и порождает страсть к убивству. Пива же можно …
+        <a href="/lib/quotes/10/">Читать&nbsp;далее&nbsp;>>></a>
+        
+        
+    </div>
+    
+</div>
+    </div>
+    
+    <div class="blockquotes-list__item">
+        <div class="blockquote">
+    <div class="blockquote__blockquote">
+        
+        <p>При таких условиях невозможно ожидать, чтобы обыватели оказали какие-нибудь подвиги по части благоустройства и благочиния или особенно успели по части наук и искусств. Для них подобные исторические эпохи суть годы учения, в течение которых они испытывают себя в одном: в какой мере они могут претерпеть. Такими именно и представляет нам …
+        <a href="/lib/quotes/14/">Читать&nbsp;далее&nbsp;>>></a>
+        
+        
+    </div>
+    
+</div>
+    </div>
+    
 </div>
 </div>
 
@@ -268,7 +254,21 @@
 
 
 
+
+                <div class="clear"></div>
             </div>
+
+            
+<div class="footer">
+    <div class="counters">
+        <img src="/static/img/gif/PoweredByMacOSX.gif" />
+        <img src="/static/img/counters/mailru2.gif" />
+        <img src="/static/img/counters/rambler.gif" />
+        <img src="/static/img/counters/aport.gif" />
+        <img src="/static/img/counters/liveinternet.gif" />
+    </div>
+    <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+</div>
 
         </div>
     </body>

@@ -9,6 +9,7 @@
         <script src="/static/js/calendar.js"></script>
         <script src="/static/js/vote.js"></script>
         <script src="/static/js/countdown-banner.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" type="text/css" href="https://st.fontstorage.com/font/import/comicrelief.css" media="all" onload="this.media='all'">
         <!-- Yandex.Metrika counter -->
         <script type="text/javascript" >
@@ -35,108 +36,93 @@
             
 
 <div class="aside">
-    <div class="inner">
-        <div class="logo">
-            <a href="/">
-                <img src="/static/img/logo.gif" width="100%"/>
-            </a>
-        </div>
+    <div class="logo">
+        <a href="/">
+            <img src="/static/img/logo.gif" width="100%"/>
+        </a>
+    </div>
 
-        <div class="charset">
-            [
-                <a href="#KOI-8">KOI-8</a>
-                |
-                <a href="#MAC">MAC</a>
-                |
-                <a href="#WIN">WIN</a>
-                |
-                <a href="#DOS">DOS</a>
-                |
-                <a href="#LAT">LAT</a>
-            ]
-        </div>
+    <div class="charset">
+        [
+            <a href="#KOI-8">KOI-8</a>
+            |
+            <a href="#MAC">MAC</a>
+            |
+            <a href="#WIN">WIN</a>
+            |
+            <a href="#DOS">DOS</a>
+            |
+            <a href="#LAT">LAT</a>
+        ]
+    </div>
 
-        <div class="marquee">
-            <marquee id="marquee"></marquee>
-        </div>
+    <div class="marquee">
+        <marquee id="marquee"></marquee>
+    </div>
 
-        <div class="menu">
-            <!-- <div class="h2">Меню:</div> -->
-            <ul>
-                <li>
-                    <a href="/">Главная</a>
-                </li>
-                <li>
-                    <a href="/weblog/">
-                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                        WEBLOG
-                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                    </a>
-                </li>
-                <li>
-                    <a href="/recipes/">Рецепты</a>
-                </li>
-                <li>
-                    <a href="/jokes/">Анекдоты</a>
-                </li>
-                <li>
-                    <a href="/lib/">Прочитано</a>
-                </li>
-                <li>
-                    <a href="/links/">Полезные ссылки</a>
-                </li>
-                <li>
-                    <a href="/guest/">Гостевая книга</a>
-                </li>
-            </ul>
-        </div>
+    <div class="menu">
+        <!-- <div class="larger bold">Меню:</div> -->
+        <ul>
+            <li>
+                <a href="/">Главная</a>
+            </li>
+            <li>
+                <a href="/weblog/">
+                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                    WEBLOG
+                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                </a>
+            </li>
+            <li>
+                <a href="/lib/">Прочитано</a>
+            </li>
+            <li>
+                <a href="/recipes/">Рецепты</a>
+            </li>
+            <li>
+                <a href="/jokes/">Анекдоты</a>
+            </li>
+            <li>
+                <a href="/links/">Полезные ссылки</a>
+            </li>
+            <li>
+                <a href="/guest/">Гостевая книга</a>
+            </li>
+        </ul>
+    </div>
 
-        <div class="poll">
-            <div class="h2">Вам нравится мой сайт?</div>
-            <div>
-                <form>
-                    <fieldset>
-                        <input type="radio" name="rate" value="5" id="rate-5" />
-                        <label for="rate-5">Очень нравится!!!</label>
-                    </fieldset>
-                    <fieldset>
-                        <input type="radio" name="rate" value="4" id="rate-4" />
-                        <label for="rate-4">Хороший сайт...</label>
-                    </fieldset>
-                    <fieldset>
-                        <input type="radio" name="rate" value="3" id="rate-3" />
-                        <label for="rate-3">Средне!</label>
-                    </fieldset>
-                    <fieldset>
-                        <input type="radio" name="rate" value="2" id="rate-2" />
-                        <label for="rate-2">Мне не нравится!</label>
-                    </fieldset>
-                    <fieldset>
-                        <input type="radio" name="rate" value="1" id="rate-1" />
-                        <label for="rate-1">Сайт полный отстой!!!</label>
-                    </fieldset>
-                    <fieldset>
-                        <button type="button" onClick="vote()">Проголосовать</button>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
-
-        <div class="calendar" id="calendar"></div>
-        
-        <div class="footer">
-            <div>
-                <img src="/static/img/gif/PoweredByMacOSX.gif" />
-            </div>
-            <div class="counters">
-                <img src="/static/img/counters/aport.gif" />
-                <img src="/static/img/counters/rambler.gif" />
-                <img src="/static/img/counters/liveinternet.gif" />
-                <img src="/static/img/counters/mailru2.gif" />
-            </div>
-            <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+    <div class="poll">
+        <div class="larger bold">Вам нравится мой сайт?</div>
+        <div>
+            <form>
+                <fieldset>
+                    <input type="radio" name="rate" value="5" id="rate-5" />
+                    <label for="rate-5">Очень нравится!!!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="4" id="rate-4" />
+                    <label for="rate-4">Хороший сайт...</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="3" id="rate-3" />
+                    <label for="rate-3">Средне!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="2" id="rate-2" />
+                    <label for="rate-2">Мне не нравится!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="1" id="rate-1" />
+                    <label for="rate-1">Сайт полный отстой!!!</label>
+                </fieldset>
+                <fieldset>
+                    <button type="button" onClick="vote()">Проголосовать</button>
+                </fieldset>
+            </form>
         </div>
     </div>
+
+    <div class="calendar" id="calendar"></div>
 </div>
 
             <div class="main">
@@ -180,7 +166,6 @@
     <p>Меня зовут Рома, я начинающий WEB-разработчик, изучаю программирование на HTML и это моя домашняя страница в сети "Интернет"!!!</p>
     <p>Я увлекаюсь наручными часами (у меня даже есть небольшая коллекция :-), учусь играть на пианино и люблю готовить. Здесь я выкладываю фотографии, заметки о прочитанных книгах, фиксирую разные мысли, ссылки, рецепты, анекдоты и всё что мне интересно!</p>
     <p>Сайт еще в режиме разработки, так что не судите строго! Сохраняйте в закладки, заходите в гости!!! Буду рад знакомству!!!</p>
-    <div class="clear"></div>
 </div>
 
 <hr/>
@@ -199,15 +184,19 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">&quot;История одного города&quot;. Сказки,</span> М. Е. Салтыков-Щедрин</div>
-                            <div>
+                            <div><span class="bold">&quot;История одного города&quot;. Сказки,</span> <nobr>М. Е. Салтыков-Щедрин</nobr></div>
+                            <div class="small">
                                 <span class="date">22 ноября 2024</span>
-                                <!-- |
-                                <a href="/lib/saltykov/books/istoriya-odnogo-goroda/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/saltykov/books/istoriya-odnogo-goroda/">Подробнее >>></a>
                                 
                                 |
                                 <a href="/lib/saltykov/books/istoriya-odnogo-goroda/reviews/2/">Отзыв >>></a>
                                 
+                                
+                                |
+                                <a href="/lib/saltykov/books/istoriya-odnogo-goroda/quotes/">Цитаты >>></a>
+                                
                             </div>
                         </li>
                         
@@ -230,15 +219,19 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">На Западном фронте без перемен,</span> Эрих Мария Ремарк</div>
-                            <div>
+                            <div><span class="bold">На Западном фронте без перемен,</span> <nobr>Эрих Мария Ремарк</nobr></div>
+                            <div class="small">
                                 <span class="date">30 августа 2024</span>
-                                <!-- |
-                                <a href="/lib/remark/books/im-westen-nichts-neues/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/remark/books/im-westen-nichts-neues/">Подробнее >>></a>
                                 
                                 |
                                 <a href="/lib/remark/books/im-westen-nichts-neues/reviews/1/">Отзыв >>></a>
                                 
+                                
+                                |
+                                <a href="/lib/remark/books/im-westen-nichts-neues/quotes/">Цитаты >>></a>
+                                
                             </div>
                         </li>
                         
@@ -246,11 +239,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">Клара и Солнце,</span> Кадзуо Исигуро</div>
-                            <div>
+                            <div><span class="bold">Клара и Солнце,</span> <nobr>Кадзуо Исигуро</nobr></div>
+                            <div class="small">
                                 <span class="date">22 августа 2024</span>
-                                <!-- |
-                                <a href="/lib/kazuo-ishiguro/books/klara-and-the-sun/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/kazuo-ishiguro/books/klara-and-the-sun/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -259,11 +253,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">&quot;Дорога в Макондо&quot;,</span> Габриэль Гарсиа Маркес</div>
-                            <div>
+                            <div><span class="bold">&quot;Дорога в Макондо&quot;,</span> <nobr>Габриэль Гарсиа Маркес</nobr></div>
+                            <div class="small">
                                 <span class="date">21 июля 2024</span>
-                                <!-- |
-                                <a href="/lib/markes/books/makondo/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/markes/books/makondo/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -272,11 +267,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">Сто лет одиночества,</span> Габриэль Гарсиа Маркес</div>
-                            <div>
+                            <div><span class="bold">Сто лет одиночества,</span> <nobr>Габриэль Гарсиа Маркес</nobr></div>
+                            <div class="small">
                                 <span class="date">24 июня 2024</span>
-                                <!-- |
-                                <a href="/lib/markes/books/cien-anos-de-soledad/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/markes/books/cien-anos-de-soledad/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -285,11 +281,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">&quot;Петербургские повести&quot; и &quot;Вечера на хуторе близ Диканьки&quot;,</span> Н. В. Гоголь</div>
-                            <div>
+                            <div><span class="bold">&quot;Петербургские повести&quot; и &quot;Вечера на хуторе близ Диканьки&quot;,</span> <nobr>Н. В. Гоголь</nobr></div>
+                            <div class="small">
                                 <span class="date">11 июня 2024</span>
-                                <!-- |
-                                <a href="/lib/gogol/books/vechera-bliz-dikanki/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/gogol/books/vechera-bliz-dikanki/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -298,11 +295,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">Одноэтажная Америка,</span> Ильф и Петров</div>
-                            <div>
+                            <div><span class="bold">Одноэтажная Америка,</span> <nobr>Ильф и Петров</nobr></div>
+                            <div class="small">
                                 <span class="date">30 апреля 2024</span>
-                                <!-- |
-                                <a href="/lib/ilf-petrov/books/one-storied-america/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/ilf-petrov/books/one-storied-america/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -311,11 +309,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">Пойди, поставь сторожа,</span> Харпер Ли</div>
-                            <div>
+                            <div><span class="bold">Пойди, поставь сторожа,</span> <nobr>Харпер Ли</nobr></div>
+                            <div class="small">
                                 <span class="date">7 апреля 2024</span>
-                                <!-- |
-                                <a href="/lib/nelle-harper-lee/books/go-set-a-watchman/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/nelle-harper-lee/books/go-set-a-watchman/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -324,11 +323,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">&quot;Хорошие жены&quot;,</span> Луиза Мей Олкотт</div>
-                            <div>
+                            <div><span class="bold">&quot;Хорошие жены&quot;,</span> <nobr>Луиза Мей Олкотт</nobr></div>
+                            <div class="small">
                                 <span class="date">30 марта 2024</span>
-                                <!-- |
-                                <a href="/lib/louisa-may-alcott/books/good-wifes/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/louisa-may-alcott/books/good-wifes/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -337,11 +337,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">&quot;Маленькие женщины&quot;,</span> Луиза Мей Олкотт</div>
-                            <div>
+                            <div><span class="bold">&quot;Маленькие женщины&quot;,</span> <nobr>Луиза Мей Олкотт</nobr></div>
+                            <div class="small">
                                 <span class="date">14 марта 2024</span>
-                                <!-- |
-                                <a href="/lib/louisa-may-alcott/books/little-woman-olkott/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/louisa-may-alcott/books/little-woman-olkott/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -350,11 +351,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">Убить пересмешника,</span> Харпер Ли</div>
-                            <div>
+                            <div><span class="bold">Убить пересмешника,</span> <nobr>Харпер Ли</nobr></div>
+                            <div class="small">
                                 <span class="date">27 февраля 2024</span>
-                                <!-- |
-                                <a href="/lib/nelle-harper-lee/books/to-kill-a-mockingbird/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/nelle-harper-lee/books/to-kill-a-mockingbird/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -363,11 +365,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">За бортом по своей воле,</span> Ален Бомбар</div>
-                            <div>
+                            <div><span class="bold">За бортом по своей воле,</span> <nobr>Ален Бомбар</nobr></div>
+                            <div class="small">
                                 <span class="date">20 февраля 2024</span>
-                                <!-- |
-                                <a href="/lib/alain-bombard/books/the-bombard-story/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/alain-bombard/books/the-bombard-story/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -376,11 +379,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">Мастер и Маргарита,</span> М. А. Булгаков</div>
-                            <div>
+                            <div><span class="bold">Мастер и Маргарита,</span> <nobr>М. А. Булгаков</nobr></div>
+                            <div class="small">
                                 <span class="date">9 февраля 2024</span>
-                                <!-- |
-                                <a href="/lib/bulgakov/books/master-i-margarita-bulgakov/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/bulgakov/books/master-i-margarita-bulgakov/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -389,11 +393,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">Великий Гэтсби,</span> Фрэнсис Скотт Фицджеральд</div>
-                            <div>
+                            <div><span class="bold">Великий Гэтсби,</span> <nobr>Фрэнсис Скотт Фицджеральд</nobr></div>
+                            <div class="small">
                                 <span class="date">25 января 2024</span>
-                                <!-- |
-                                <a href="/lib/francis-scott-key-fitzgerald/books/the-great-gatsby-fitzgerald/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/francis-scott-key-fitzgerald/books/the-great-gatsby-fitzgerald/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -402,11 +407,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">Герой нашего времени,</span> М. Ю. Лермонтов</div>
-                            <div>
+                            <div><span class="bold">Герой нашего времени,</span> <nobr>М. Ю. Лермонтов</nobr></div>
+                            <div class="small">
                                 <span class="date">20 января 2024</span>
-                                <!-- |
-                                <a href="/lib/lermontov/books/geroy-nashego-vremeni-lermontov/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/lermontov/books/geroy-nashego-vremeni-lermontov/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -415,11 +421,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">&quot;Норвежский лес&quot;, &quot;Слушай песню ветра&quot; и &quot;Пинбол 1973&quot;,</span> Харуки Мураками</div>
-                            <div>
+                            <div><span class="bold">&quot;Норвежский лес&quot;, &quot;Слушай песню ветра&quot; и &quot;Пинбол 1973&quot;,</span> <nobr>Харуки Мураками</nobr></div>
+                            <div class="small">
                                 <span class="date">14 января 2024</span>
-                                <!-- |
-                                <a href="/lib/haruki-murakami/books/norwegian-wood-murakami/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/haruki-murakami/books/norwegian-wood-murakami/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -428,11 +435,12 @@
                         
                         
                         <li>
-                            <div class="larger"><span class="bold">Мизерере,</span> Жан-Кристоф Гранже</div>
-                            <div>
+                            <div><span class="bold">Мизерере,</span> <nobr>Жан-Кристоф Гранже</nobr></div>
+                            <div class="small">
                                 <span class="date">8 января 2024</span>
-                                <!-- |
-                                <a href="/lib/jean-christophe-grange/books/miserere-grange/">Подробнее >>></a> -->
+                                |
+                                <a href="/lib/jean-christophe-grange/books/miserere-grange/">Подробнее >>></a>
+                                
                                 
                             </div>
                         </li>
@@ -450,31 +458,31 @@
                     
                         
                             <li>
-                                <div class="larger grey"><span class="bold">Анна Каренина,</span> Л. Н. Тостой</div>
+                                <div class="grey"><span class="bold">Анна Каренина,</span> Л. Н. Тостой</div>
                             </li>
                         
                     
                         
                             <li>
-                                <div class="larger grey"><span class="bold">Осень патриарха,</span> Габриэль Гарсиа Маркес</div>
+                                <div class="grey"><span class="bold">Осень патриарха,</span> Габриэль Гарсиа Маркес</div>
                             </li>
                         
                     
                         
                             <li>
-                                <div class="larger grey"><span class="bold">Преступление и наказание,</span> Ф. М. Достоевский</div>
+                                <div class="grey"><span class="bold">Преступление и наказание,</span> Ф. М. Достоевский</div>
                             </li>
                         
                     
                         
                             <li>
-                                <div class="larger grey"><span class="bold">Волшебная гора,</span> Томас Манн</div>
+                                <div class="grey"><span class="bold">Волшебная гора,</span> Томас Манн</div>
                             </li>
                         
                     
                         
                             <li>
-                                <div class="larger grey"><span class="bold">Убийство Командора,</span> Харуки Мураками</div>
+                                <div class="grey"><span class="bold">Убийство Командора,</span> Харуки Мураками</div>
                             </li>
                         
                     
@@ -549,7 +557,21 @@
     <div class="clear"></div>
 </div>
 
+
+                <div class="clear"></div>
             </div>
+
+            
+<div class="footer">
+    <div class="counters">
+        <img src="/static/img/gif/PoweredByMacOSX.gif" />
+        <img src="/static/img/counters/mailru2.gif" />
+        <img src="/static/img/counters/rambler.gif" />
+        <img src="/static/img/counters/aport.gif" />
+        <img src="/static/img/counters/liveinternet.gif" />
+    </div>
+    <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+</div>
 
         </div>
     </body>
