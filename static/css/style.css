@@ -407,7 +407,6 @@ blockquote {
 }
 
 .blockquote__source {
-    clear: both;
     text-align: right;
     margin-top: 20px;
     color: #999;
