@@ -514,7 +514,8 @@ blockquote {
 }
 
 .books-previews-list {
-
+    float: left;
+    width: 100%;
 }
 
 .books-previews-list__item {
@@ -530,7 +531,7 @@ blockquote {
 }
 
 .books-previews-list__item:nth-child(3n+1) {
-    /* clear: left; */
+    clear: left;
 }
 
 .books-previews-list__date {
