@@ -2,7 +2,7 @@ var countdownBanner = function () {
     if (document.getElementById('countdown-banner-days')) {
         var interval = function () {
             var now = new Date();
-            var finish = Date.parse('2025-01-01T00:00:00.000');
+            var finish = Date.parse('2025-06-01T00:00:00.000');
     
             var days = Math.floor((finish - now) / (1000 * 60 * 60 * 24));
             var hours = Math.floor((finish - now) / (1000 * 60 * 60)) % 24;
