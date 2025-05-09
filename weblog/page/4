@@ -1,0 +1,557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+
+    <head>
+        <title>Мой WEBLOG - все записи от свежих к старым</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="/static/css/style.css" />
+        <script src="/static/js/marquee.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/vote.js"></script>
+        <script src="/static/js/countdown-banner.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="https://st.fontstorage.com/font/import/comicrelief.css" media="all" onload="this.media='all'">
+        
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        
+            ym(98557973, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/98557973" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        
+    </head>
+
+    <body class="body body_june-2024">
+        <div class="wrapper">
+
+            
+
+<div class="aside">
+    <div class="logo">
+        <a href="/">
+            <img src="/static/img/logo.gif" width="100%"/>
+        </a>
+    </div>
+
+    <div class="charset">
+        [
+            <a href="#KOI-8">KOI-8</a>
+            |
+            <a href="#MAC">MAC</a>
+            |
+            <a href="#WIN">WIN</a>
+            |
+            <a href="#DOS">DOS</a>
+            |
+            <a href="#LAT">LAT</a>
+        ]
+    </div>
+
+    <div class="marquee">
+        <marquee id="marquee"></marquee>
+    </div>
+
+    <div class="menu">
+        <!-- <div class="larger bold">Меню:</div> -->
+        <ul>
+            <li>
+                <a href="/">Главная</a>
+            </li>
+            <li>
+                <a href="/weblog/">
+                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                    WEBLOG
+                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                </a>
+            </li>
+            <li>
+                <a href="/lib/">Прочитано</a>
+            </li>
+            <li>
+                <a href="/recipes/">Рецепты</a>
+            </li>
+            <li>
+                <a href="/jokes/">Анекдоты</a>
+            </li>
+            <li>
+                <a href="/links/">Полезные ссылки</a>
+            </li>
+            <li>
+                <a href="/guest/">Гостевая книга</a>
+            </li>
+            
+        </ul>
+    </div>
+
+    <div class="poll">
+        <div class="larger bold">Вам нравится мой сайт?</div>
+        <div>
+            <form>
+                <fieldset>
+                    <input type="radio" name="rate" value="5" id="rate-5" />
+                    <label for="rate-5">Очень нравится!!!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="4" id="rate-4" />
+                    <label for="rate-4">Хороший сайт...</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="3" id="rate-3" />
+                    <label for="rate-3">Средне!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="2" id="rate-2" />
+                    <label for="rate-2">Мне не нравится!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="1" id="rate-1" />
+                    <label for="rate-1">Сайт полный отстой!!!</label>
+                </fieldset>
+                <fieldset>
+                    <button type="button" onClick="vote()">Проголосовать</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div class="calendar" id="calendar"></div>
+</div>
+
+            <div class="main">
+                
+<img src="/static/img/titles/weblog.gif" class="heading-word-art" />
+
+                
+                
+<div class="breadcrumbs">
+    
+    / <span>WEBLOG</span>
+    
+</div>
+
+
+                
+
+<h1>Мой WEBLOG - все записи от свежих к старым</h1>
+
+
+<div>
+
+    <div class="pagination">
+        <table class="pagination__table" cellpadding="10" cellspacing="3" border="1">
+            <tr>
+                <td>
+                    <div class="pagination__title">Страницы:</div>
+                </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/">1</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/2">2</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/3">3</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                        <span class="pagination__active">4</span>
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/5">5</a>
+                            
+                        
+                    </td>
+                
+            </tr>
+        </table>
+    </div>
+
+    <hr />
+
+    
+    <div class="blog-post" id="alcohol-passport">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/alcohol-passport/">Нарисовал мем</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">31 декабря 2024 г. 12:00</span>
+                
+                <span class="blog-post__keywords-list">
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/narisoval-mem/">Нарисовал мем</a>
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/alcohol/">алкоголь</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+        
+        <div class="blog-post__thumbnail">
+            <img src="/uploads/weblog/2025/01/01/passport.jpg">
+        </div>
+        
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/alcohol-passport/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="paranoic-mug">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/paranoic-mug/">Кружка дня</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">9 декабря 2024 г. 1:51</span>
+                
+            </div>
+        </div>
+        
+        <div class="blog-post__thumbnail">
+            <img src="/uploads/weblog/2024/12/09/SDC11885.jpg">
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Эта жутковатая история случилась со мной несколько дней назад и получила свою положительную развязку только сегодня. А также я хотел бы поделиться с читателями радостью приобретения трех прекрасных кружкек, которыми я разжился в этой связи.</p></p> <p><p>Я очень люблю кружки, и давно искал новую необычную кружку, чтобы пополнить коллекцию. Я выискивал кружку в непродовольственном отделе супермаркетов и в магазинах подарков, на маркетплейсах в сети &quot;Интернет&quot; и в посудных лавках, но всё было не то. И тут я случайно оказался в магазине-дискаунтере фиксированных цен, и тут я увидел её. На фотографии эта кружка крайняя справа.</p></p> <p><p>Это была даже не любовь …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/paranoic-mug/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="tv-show">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/tv-show/">Телешоу</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">8 декабря 2024 г. 5:32</span>
+                
+                <span class="blog-post__keywords-list">
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/tv/">Телевиденье</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Хочется иногда как в детстве зацепиться, полюбить и начать фанатеть от какого-нибудь дурацкого телешоу.&nbsp;Болеть за своих героев, поющих стариков, детей-танцоров или доморощенных атлетов, отправлять по двадцать смс со всех номеров, до утра ругаться на форумах в интернете, выясняя чей кумир талантливее.</p></p> <p><p>Фанать от своего телешоу настолько, чтобы планировать всю жизнь, подстраивая её под просмотр нового выпуска. Спешить вечером домой в день выхода шоу, поскорее, чтобы успеть раздеться и искупаться прежде чем всё начнется.</p></p> <p><p>Чтобы телешоу стало таким каркасом для жизни, поверх которого нарастают другие привычки, интересы, увлечения и образ жизни. Если ток-шоу про детей, то приобщать к нему …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/tv-show/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="durov">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/durov/">Нарисовал мем</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">25 августа 2024 г. 0:41</span>
+                
+                <span class="blog-post__keywords-list">
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/narisoval-mem/">Нарисовал мем</a>
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/telegram/">Телеграм</a>
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/durov/">Дуров</a>
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/internet/">Интернет</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+        
+        <div class="blog-post__thumbnail">
+            <img src="/uploads/weblog/2024/12/03/durov.jpg">
+        </div>
+        
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/durov/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="civil-war">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/civil-war/">Рецензия на х/ф &quot;Падение империи&quot; (США, 2024)</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">14 августа 2024 г. 0:00</span>
+                
+                <span class="blog-post__keywords-list">
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/USA/">США</a>
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/cinema/">Фильм</a>
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/review/">Отзыв</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+        
+        <div class="blog-post__thumbnail">
+            <img src="/uploads/weblog/2024/12/07/1_w28xDWDiMZGtsAiVcPMXnA-min_1.jpg">
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Неожиданно посмотрел художественный фильм &quot;Падение империи&quot; (США, 2024), и еще более неожиданно то, что он мне очень ПОНРАВИЛСЯ. Но обо всём по порядку.</p></p> <p><p>Прежде всего, фильм привлёк моё внимание сюжетом еще задолго до выхода - гражданская война в Америке, развал штатов, горящий Капитолий - что еще нужно для хорошего кино? Фильм обещал быть остросюжетным триллером, насыщенным зрелищными взрывами, захватывающими перестрелками и погонями, маскулинными героями, и другими самыми банальными клише из боевиков, которые оценит неискушенный зритель, ничего не понимающий в кинематографе. Словом, всё как мы любим.</p></p> <p><p>Когда оказалось, что не срослось ни с триллером, ни даже с боевиком, и …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/civil-war/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="mouse-pad">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/mouse-pad/">Коврики для компьютерного манипулятора типа &quot;мышь&quot;</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">4 июля 2024 г. 0:00</span>
+                
+                <span class="blog-post__keywords-list">
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/pc/">ПК</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>В последние годы всё большую популярность набирают так называемые &quot;коврики&quot; для координатного устройства ввода типа &quot;мышь&quot; огромного размера, выполненные из текстиля, и уходящие своими границами далеко за пределы манипулятора ввода, покрывающие весь стол целиком, до самых его краёв, простираясь под клавиатурой и иными настольными приспособлениями.</p></p> <p><p>Несколько месяцев назад я купил себе такой же коврик. Я убеждён, что помимо сохранения для следующих поколений первозданного вида настольного покрытия, подобные коврики позволяют также реализовать тягу к скатертям и рушникам, заложенную на подсознательном уровне в любом славянине, и способствуют тем самым сохранению традиций и национальной идентичности. В этой связи подобные коврики я …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/mouse-pad/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="eames">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/eames/">Единственный минус стула Eames</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">3 июля 2024 г. 0:00</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Несмотря на все плюсы, многие из которых на самом деле являются преувеличенными, или на все минусы, также по большей части надуманные, и также невзирая на сверхпопулярный дизайн (относить это к преимуществам или к недостаткам читатель решит для себя сам), в сущности у белого стула&nbsp;Eames, того самого, пластмассового, на четырех деревянных ножках, есть единственный существенный недочёт, который мешает мне пользоваться этим стулом с кофмортом: на нём&nbsp;совершенно невозможно сидеть, подогнув под себя одну ногу.</p></p></div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/eames/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="yet-one-docker-hat">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/yet-one-docker-hat/">Еще одна шутка про шапку-докер</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">1 июля 2024 г. 0:00</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Познакомьте их между собой.</p></p> <p><p><img alt="" src="/uploads/uploads/2024/12/03/GROUP%201-MIN.JPG" style="height:319px; width:547px" /></p></p></div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/yet-one-docker-hat/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="pole-chudes">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/pole-chudes/">Поле чудес</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">28 июня 2024 г. 0:00</span>
+                
+                <span class="blog-post__keywords-list">
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/tv/">Телевиденье</a>
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/childhood/">Детство</a>
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/pole-chudes/">Поле чудес</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>В детстве я думал, что в &quot;Поле чудес&quot; количество очков, которое выпадает на барабане, зависит от того, насколько интересно игрок рассказал о родной деревне, сколько приветов передал друзьям, соседям и коллегам по службе, сколько привёз гостинцев (и каких!) и насколько хорошо его ребёнок прочитал наизусть стих.</p></p></div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/pole-chudes/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="football-goal">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/football-goal/">Футбольные ворота</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">27 июня 2024 г. 0:00</span>
+                
+                <span class="blog-post__keywords-list">
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/football/">футбол</a>
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/words/">слова</a>
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/language/">язык</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Я долго путался, какая часть футбольных ворот называется ШТАНГОЙ, а какая называется ПЕРЕКЛАДИНОЙ. Должно быть, меня сбивала с толку штанга как снаряд в спорт-зале &mdash; ведь она горизонтальная, и мне по привычке казалось, что горизонтальная часть ворот это тоже штанга (хотя у футбольных ворот наоборот).</p></p> <p><p>В итоге выстроил себе ассоциативную связь на уровне графических символов: в букве Ш много вертикальных линий, значит вертикальная часть ворот это ШТАНГА. А в букве П изображена горизонтальная линия наверху, значит это перекладина.</p></p> <p><p>Только так и запомнил.</p></p></div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/football-goal/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+
+    <div class="pagination">
+        <table class="pagination__table" cellpadding="10" cellspacing="3" border="1">
+            <tr>
+                <td>
+                    <div class="pagination__title">Страницы:</div>
+                </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/">1</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/2">2</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/3">3</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                        <span class="pagination__active">4</span>
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/5">5</a>
+                            
+                        
+                    </td>
+                
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+                <div class="clear"></div>
+            </div>
+
+            
+<div class="footer">
+    <div class="counters">
+        <img src="/static/img/gif/PoweredByMacOSX.gif" />
+        <img src="/static/img/counters/mailru2.gif" />
+        <img src="/static/img/counters/rambler.gif" />
+        <img src="/static/img/counters/aport.gif" />
+        <img src="/static/img/counters/liveinternet.gif" />
+    </div>
+    <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+</div>
+
+        </div>
+
+        
+    </body>
+
+</html>

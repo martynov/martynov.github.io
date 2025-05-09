@@ -717,11 +717,34 @@ blockquote {
 }
 
 .blog-post__title {
-
+    margin: 0;
 }
 
 .blog-post__meta {
-    margin: 24px 0;
+    margin: 12px 0 24px 0;
+}
+
+.blog-post__date {
+    margin-right: 8px;
+}
+
+.blog-post__keywords-list {
+
+}
+
+.blog-post__keyword-link {
+    margin-right: 5px;
+    text-transform: lowercase;
+    color: grey;
+    text-decoration: none;
+}
+
+.blog-post__keyword-link:visited {
+    color: grey;
+}
+
+.blog-post__keyword-link:hover {
+    color: red;
 }
 
 .blog-post__thumbnail {
@@ -730,6 +753,10 @@ blockquote {
 
 .blog-post__content {
 
+}
+
+.blog-post__footer {
+    margin-top: 16px;
 }
 
 /* artist-container */
@@ -784,4 +811,38 @@ blockquote {
     .admin-buttons__button + .admin-buttons__button {
         margin-top: 5px;
     }
+}
+
+/* pagination */
+
+.pagination {
+
+}
+
+.pagination__title {
+    font-weight: bold;
+    text-align: left;
+}
+
+.pagination__table {
+    width: 100%;
+    text-align: center;
+    background-color: antiquewhite;
+    border-color: white;
+}
+
+.pagination__table tr {
+
+}
+
+.pagination__table tr td {
+    line-height: 20px;
+}
+
+.pagination__active {
+    font-weight: bold;
+}
+
+.pagination__link {
+
 }

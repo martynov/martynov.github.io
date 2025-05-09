@@ -1,0 +1,497 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+
+    <head>
+        <title>Мой WEBLOG - все записи от свежих к старым</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="/static/css/style.css" />
+        <script src="/static/js/marquee.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/vote.js"></script>
+        <script src="/static/js/countdown-banner.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="https://st.fontstorage.com/font/import/comicrelief.css" media="all" onload="this.media='all'">
+        
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        
+            ym(98557973, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/98557973" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        
+    </head>
+
+    <body class="body body_june-2024">
+        <div class="wrapper">
+
+            
+
+<div class="aside">
+    <div class="logo">
+        <a href="/">
+            <img src="/static/img/logo.gif" width="100%"/>
+        </a>
+    </div>
+
+    <div class="charset">
+        [
+            <a href="#KOI-8">KOI-8</a>
+            |
+            <a href="#MAC">MAC</a>
+            |
+            <a href="#WIN">WIN</a>
+            |
+            <a href="#DOS">DOS</a>
+            |
+            <a href="#LAT">LAT</a>
+        ]
+    </div>
+
+    <div class="marquee">
+        <marquee id="marquee"></marquee>
+    </div>
+
+    <div class="menu">
+        <!-- <div class="larger bold">Меню:</div> -->
+        <ul>
+            <li>
+                <a href="/">Главная</a>
+            </li>
+            <li>
+                <a href="/weblog/">
+                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                    WEBLOG
+                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                </a>
+            </li>
+            <li>
+                <a href="/lib/">Прочитано</a>
+            </li>
+            <li>
+                <a href="/recipes/">Рецепты</a>
+            </li>
+            <li>
+                <a href="/jokes/">Анекдоты</a>
+            </li>
+            <li>
+                <a href="/links/">Полезные ссылки</a>
+            </li>
+            <li>
+                <a href="/guest/">Гостевая книга</a>
+            </li>
+            
+        </ul>
+    </div>
+
+    <div class="poll">
+        <div class="larger bold">Вам нравится мой сайт?</div>
+        <div>
+            <form>
+                <fieldset>
+                    <input type="radio" name="rate" value="5" id="rate-5" />
+                    <label for="rate-5">Очень нравится!!!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="4" id="rate-4" />
+                    <label for="rate-4">Хороший сайт...</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="3" id="rate-3" />
+                    <label for="rate-3">Средне!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="2" id="rate-2" />
+                    <label for="rate-2">Мне не нравится!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="1" id="rate-1" />
+                    <label for="rate-1">Сайт полный отстой!!!</label>
+                </fieldset>
+                <fieldset>
+                    <button type="button" onClick="vote()">Проголосовать</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div class="calendar" id="calendar"></div>
+</div>
+
+            <div class="main">
+                
+<img src="/static/img/titles/weblog.gif" class="heading-word-art" />
+
+                
+                
+<div class="breadcrumbs">
+    
+    / <span>WEBLOG</span>
+    
+</div>
+
+
+                
+
+<h1>Мой WEBLOG - все записи от свежих к старым</h1>
+
+
+<div>
+
+    <div class="pagination">
+        <table class="pagination__table" cellpadding="10" cellspacing="3" border="1">
+            <tr>
+                <td>
+                    <div class="pagination__title">Страницы:</div>
+                </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/">1</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/2">2</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/3">3</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/4">4</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                        <span class="pagination__active">5</span>
+                        
+                    </td>
+                
+            </tr>
+        </table>
+    </div>
+
+    <hr />
+
+    
+    <div class="blog-post" id="docker-hat">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/docker-hat/">Шапка-докер</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">24 июня 2024 г. 0:00</span>
+                
+                <span class="blog-post__keywords-list">
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/hat/">Шапка</a>
+                    
+                    <a class="blog-post__keyword-link" href="/weblog/tag/fashion/">Мода</a>
+                    
+                </span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Абсолютно убеждён, что всякий кто надевает бейсболку-докер без козырька, на самом деле подавляет подсознательное желание надеть кипу или тюбетейку.</p></p></div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/docker-hat/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="i-will-bring-it-in-later">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/i-will-bring-it-in-later/">Я вам позже занесу</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">15 июня 2022 г. 14:23</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>В детстве я думал, что если в магазине продавцу не хватает сдачи с моей суммы, и продавец просит занести два рубля или пятьдесят копеек когда-то потом, то заносить эти деньги потом вовсе не обязательно.</p></p> <p><p>В негласных правилах этой игры мне казалась очевидной аналогия с &quot;мы вам перезвоним&quot; при трудоустройстве. Такая социально-приемлемая и благовидная для обеих сторон вежливость, отговорка, смысл которой всем и так ясен.</p></p></div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/i-will-bring-it-in-later/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="easter-eggs-and-public-toilet">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/easter-eggs-and-public-toilet/">Пасхальные яйца или как я на кладбище в общественный туалет ходил</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">3 мая 2022 г. 5:12</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>В детстве я еще застал те годы, когда было принято на Пасху массово посещать кладбища.</p></p> <p><p>Вообще, если так подумать, то традиция эта была не столько даже диковатая, сколько забавная. Люди раз в год, весной, за две недели до намеченной даты начинают наводить порядок, прибираться на клочке земли, пропитанном духом сотен разлагающихся трупов в радиусе километров вокруг, чтобы потом в одно апрельское воскресенье собраться там с родственниками, с которыми встречаешься обычно не чаще, чем пару раз в год, и триумфально напиться на месте погребения своих предков. Безумие!</p></p> <p><p>Помню, чаще мы встречались на могилах предков по маминой линии. Там была …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/easter-eggs-and-public-toilet/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="i-just-wish-to-lying-in-bed">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/i-just-wish-to-lying-in-bed/">Вот бы лежать так в постели всю жизнь</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">24 апреля 2022 г. 1:30</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>По утрам, когда я просыпаюсь, и когда мне не нужно никуда торопиться (к счастью, мне почти никогда не требуется никуда спешить), я могу позволить себе нежиться в постели, погружаясь в дремоту и просыпаясь ото сна, ровно столько, сколько я захочу и посчитаю нужным.</p></p> <p><p>Особенно мне нравятся дождливые, прохладные и сырые дни &mdash;&nbsp;воздухом в такие периоды дышать легче, дремать еще приятнее и спокойнее, солнце не тревожит и не светит в глаза. Я люблю подремать по утрам немного дольше, когда за окном туман, и чем выше его влажность, тем сильнее он обволакивает и впитывает в себя звуки, и даже уличный …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/i-just-wish-to-lying-in-bed/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="its-not-gods-who-make-pots">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/its-not-gods-who-make-pots/">Не боги горшки обжигают</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">9 апреля 2022 г. 9:46</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Когда я был маленьким, я понимал пословицу, вынесенную в заголовок этой записи, немного не так, о чем она говорит буквально; и совсем не так, как понимают её взрослые.</p></p> <p><p>Мне представлялся грек (а это, в целом, вполне логично, ведь где боги &mdash; там и Древняя Греция), здоровенный дядька, его звали бы Каллистрат или Галактион, с бородой и бакенбардами, с длинным волнистым черным волосом и огромным эллинским носом с выразительной греческой горбинкой. Мне семилетнему представлялось, как этот грек садился испражняться на горшок (не на эмалированный детский горшок с овальной ручкой сбоку, а на пропорционально увеличенную в размерах взрослую ночную вазу),&nbsp;но …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/its-not-gods-who-make-pots/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="chocolate-wrong-side">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/chocolate-wrong-side/">Шоколадки наизнанку</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">30 марта 2022 г. 6:06</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Почему все производители заворачивают плитки шоколада в обёртку таким образом, что при вскрытии упаковки покупатель видит &laquo;глухую&raquo; оборотную сторону?</p></p> <p><p>Я догадываюсь и я понимаю доводы про конвейерную ленту и особенности производства; но почему нельзя один раз взяться и придумать какое-то решение этой проблемы? Это ведь не сложно &mdash; просто перевернуть застывшую плитку шоколада и завернуть её в упаковку &laquo;вверх ногами&raquo;. Было бы желание.</p></p> <p><p>Давайте я проведу аналогию: представьте, что вы покупаете дорогой смартфон за тысячу долларов, или ноутбук, или наручные часы, или еще что-то подобное; вскрываете роскошную глянцевую коробку с безупречной полиграфией, но внутри видите ворох каких-то бумаг, …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/chocolate-wrong-side/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="covidiot">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/covidiot/">Я переболел коронавирусом!</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">8 февраля 2022 г. 3:49</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>На прошлой неделе я переболел китайским коронавирусом.</p></p> <p><p>Мы переболели коронавирусом вдвоем с мамой. Моя мама прививалась &laquo;Спутником&raquo; полгода назад и планировала ревакцинироваться в феврале. Я тоже давно намеревался сделать прививку, но откладывал вакцинацию с самого лета &mdash; оправдывал себя тем, что не имею ни серьезных хронических заболеваний, ни лишнего веса; кроме того, я правильно питаюсь, не имею вредных привычек, и веду здоровый, но крайне малообщительный образ жизни.</p></p> <p><p>Я никогда за время пандемии не был антипрививочником, я считаю вакцины большим благом, и искренне радовался, когда прививались мои родители или бабушка. Но для себя так или иначе, всеми правдами и …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/covidiot/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="doorbell">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/doorbell/">Дверной звонок</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">6 января 2022 г. 7:09</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Пришло в голову, что дверные звонки &mdash; самое переоцененное изобретение человечества, на практике почти никогда не решающее абсолютно никаких задач.</p></p> <p><p>Даже записки, объявления и письма, распечатанные на принтере, не обезличивают автора так сильно, как это делает дверной звонок. Электрический дверной звонок абсолютно размывает образы гостей, их эмоции и срочность визита.</p></p> <p><p>В дверь можно барабанить кулаком, бить ногами, или элегантно постукивать ногтями или костяшками пальцев. Можно сделать три убедительных удара, а можно изобразить какой-то несложный ритм. В конце концов, можно стучать в дверь с разной силой &mdash;&nbsp;под стать срочности и важности визита. Благодаря разным сочетаниям этих критериев, хозяин может …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/doorbell/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="night-taxi">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/night-taxi/">Ночное такси</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">3 января 2022 г. 21:10</span>
+                
+            </div>
+        </div>
+        
+        <div class="blog-post__thumbnail">
+            <img src="/uploads/weblog/2024/12/10/IMG_6776_small.jpg">
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>У меня есть одна моя тайная страсть, одно секретное увлечение, о котором до этого вечера знала лишь пара людей на свете. Я должен признаться, что стыжусь этого своего удовольствия; всякий раз, когда я это делаю, я обещаю себе, что это было в последний раз; и каждый раз я презираю себя, когда мне не удаётся сдержать слово.</p></p> <p><p>Иногда я делаю это каждую ночь на протяжении нескольких дней подряд. Иногда я пресыщаюсь, интерес притупляется, и я могу не делать этого по несколько месяцев. Более мне по душе делать это зимой, но летом иногда грешу так же.</p></p> <p><p>Я люблю заказывать по …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/night-taxi/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="living-well">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/living-well/">Радуюсь в глубине души</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">31 декабря 2021 г. 4:02</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Радуюсь в глубине души, когда вижу, как родители ломают голову, каким подарком угодить своим избалованным деткам; а дети капризничают и топают ножкой.</p></p> <p><p>Радуюсь в глубине души, когда вижу, как тридцатилетние парни смотрят мультфильмы, красят волосы в розовый или тратят безумные деньги на фигурки героев из аниме.</p></p> <p><p>Радуюсь в глубине души, когда вижу людей, которые на четвертом десятке еще не решили, кем они хотят быть, когда станут взрослыми.</p></p> <p><p>Радуюсь в глубине души, когда нахожу в своём сердце расстройство и печаль из-за едва заметной царапины на любимых наручных часах.</p></p> <p><p>Я не берусь судить, но мне кажется, что всё это&nbsp;&mdash; от …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/living-well/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+
+    <div class="pagination">
+        <table class="pagination__table" cellpadding="10" cellspacing="3" border="1">
+            <tr>
+                <td>
+                    <div class="pagination__title">Страницы:</div>
+                </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/">1</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/2">2</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/3">3</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/4">4</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                        <span class="pagination__active">5</span>
+                        
+                    </td>
+                
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+                <div class="clear"></div>
+            </div>
+
+            
+<div class="footer">
+    <div class="counters">
+        <img src="/static/img/gif/PoweredByMacOSX.gif" />
+        <img src="/static/img/counters/mailru2.gif" />
+        <img src="/static/img/counters/rambler.gif" />
+        <img src="/static/img/counters/aport.gif" />
+        <img src="/static/img/counters/liveinternet.gif" />
+    </div>
+    <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+</div>
+
+        </div>
+
+        
+    </body>
+
+</html>

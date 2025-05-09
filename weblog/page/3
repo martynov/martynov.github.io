@@ -1,0 +1,486 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+
+    <head>
+        <title>Мой WEBLOG - все записи от свежих к старым</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="/static/css/style.css" />
+        <script src="/static/js/marquee.js"></script>
+        <script src="/static/js/calendar.js"></script>
+        <script src="/static/js/vote.js"></script>
+        <script src="/static/js/countdown-banner.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="https://st.fontstorage.com/font/import/comicrelief.css" media="all" onload="this.media='all'">
+        
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        
+            ym(98557973, "init", {
+                clickmap:true,
+                trackLinks:true,
+                accurateTrackBounce:true,
+                webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/98557973" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        
+    </head>
+
+    <body class="body body_june-2024">
+        <div class="wrapper">
+
+            
+
+<div class="aside">
+    <div class="logo">
+        <a href="/">
+            <img src="/static/img/logo.gif" width="100%"/>
+        </a>
+    </div>
+
+    <div class="charset">
+        [
+            <a href="#KOI-8">KOI-8</a>
+            |
+            <a href="#MAC">MAC</a>
+            |
+            <a href="#WIN">WIN</a>
+            |
+            <a href="#DOS">DOS</a>
+            |
+            <a href="#LAT">LAT</a>
+        ]
+    </div>
+
+    <div class="marquee">
+        <marquee id="marquee"></marquee>
+    </div>
+
+    <div class="menu">
+        <!-- <div class="larger bold">Меню:</div> -->
+        <ul>
+            <li>
+                <a href="/">Главная</a>
+            </li>
+            <li>
+                <a href="/weblog/">
+                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                    WEBLOG
+                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                </a>
+            </li>
+            <li>
+                <a href="/lib/">Прочитано</a>
+            </li>
+            <li>
+                <a href="/recipes/">Рецепты</a>
+            </li>
+            <li>
+                <a href="/jokes/">Анекдоты</a>
+            </li>
+            <li>
+                <a href="/links/">Полезные ссылки</a>
+            </li>
+            <li>
+                <a href="/guest/">Гостевая книга</a>
+            </li>
+            
+        </ul>
+    </div>
+
+    <div class="poll">
+        <div class="larger bold">Вам нравится мой сайт?</div>
+        <div>
+            <form>
+                <fieldset>
+                    <input type="radio" name="rate" value="5" id="rate-5" />
+                    <label for="rate-5">Очень нравится!!!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="4" id="rate-4" />
+                    <label for="rate-4">Хороший сайт...</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="3" id="rate-3" />
+                    <label for="rate-3">Средне!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="2" id="rate-2" />
+                    <label for="rate-2">Мне не нравится!</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" name="rate" value="1" id="rate-1" />
+                    <label for="rate-1">Сайт полный отстой!!!</label>
+                </fieldset>
+                <fieldset>
+                    <button type="button" onClick="vote()">Проголосовать</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    <div class="calendar" id="calendar"></div>
+</div>
+
+            <div class="main">
+                
+<img src="/static/img/titles/weblog.gif" class="heading-word-art" />
+
+                
+                
+<div class="breadcrumbs">
+    
+    / <span>WEBLOG</span>
+    
+</div>
+
+
+                
+
+<h1>Мой WEBLOG - все записи от свежих к старым</h1>
+
+
+<div>
+
+    <div class="pagination">
+        <table class="pagination__table" cellpadding="10" cellspacing="3" border="1">
+            <tr>
+                <td>
+                    <div class="pagination__title">Страницы:</div>
+                </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/">1</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/2">2</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                        <span class="pagination__active">3</span>
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/4">4</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/5">5</a>
+                            
+                        
+                    </td>
+                
+            </tr>
+        </table>
+    </div>
+
+    <hr />
+
+    
+    <div class="blog-post" id="live-until-summer">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/live-until-summer/">Неужели доживём до лета</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">8 марта 2025 г. 20:25</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Иногда в моменты долгой беспросветной зимы, в ранние вечера холодного времени года, в ноябре или в феврале, в марте или в январе, ловлю себя на мысли - неужели когда-нибудь настанет лето?</p></p> <p><p>Неужели я доживу до лета? Неужели когда-нибудь <em>еще раз</em> будет лето?</p></p> <p><p>Неужели до лета не начнется война, меня не зарежут в подворотне, не собьет машина, я не отравлюсь? Неужели до лета нейросети не отнимут у меня работу и я не повешусь из-за нищеты и безнадёги? Неужели я встречу лето в этих же стенах, не уеду никуда и не женюсь?</p></p> <p><p>И кажется, что зима это грозовой перевал, который …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/live-until-summer/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="access-restricted">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/access-restricted/">&quot;Почта России&quot; и &quot;РЖД&quot;</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">2 марта 2025 г. 19:06</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>В продолжение вчерашней истории о сайте "РЖД".</p></p> <p><p>Три года назад куча российских сайтов, приближенных к государственным структурам и компаниям, закрыли доступ посетителям с иностранных айпи. Можно понять - это помогло бы избежать хакерских атак из-за рубежа.</p></p> <p><p>Я сокрушался в первый раз, когда с инстранного айпи внезапно не открылся сайт "Почты России". Три года назад он был заблокирован и самой Великобританией; теперь та сторона разблокировала, но заблокировала эта. Корреспонденция и посылки за рубеж ходят в обе стороны, но иностранец не сможет трекнуть вашу посылку, потому что почта решила открываться только для российских айпи-адресов.</p></p> <p><p>Но сегодня смотрел сайт РЖД, и …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/access-restricted/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="select-dates">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/select-dates/">Выберите даты</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">1 марта 2025 г. 16:49</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Терпеть не могу интерфейсы бронирования жилья, где для обязательного просмотра гостиниц, номеров, приблизительных цен или услуг нужно указывать даты начала и конца бронирования.</p></p> <p><p>Это отсекает огромную долю пользователей со сценариями, которые не подразумевают покупку в конце сессии. Может, клиент еще не оформил себе отпуск, и может сдвинуть даты на несколько недель вперёд или назад ради лучшего размещения? Даже если клиент оформил отпуск, вдруг он готов подвинуться на пару дней ради более выгодной цены? Может, для клиента имеет первоочередную важность именно отель? Может, в конце концов, клиент зашел посмотреть интерьеры гостиниц или помечтать о путешествии? У всех этих людей …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/select-dates/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="winter-last-day">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/winter-last-day/">Последний день зимы</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">28 февраля 2025 г. 9:17</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Сегодня за завтраком в утреннем телеэфире услышал шутки на тему последнего дня зимы, а значит пережили зиму, и что по ней никто не будет скучать. Сделалось за зиму обидно. Я убеждён, что внутренний ребёнок умирает в человеке в тот момент, когда его носитель перестаёт чувствовать радость от выпавшего снега. А когда накопившиеся за ночь сугробы вызывают мысли только о том, что нужно будет чистить от снега машину, человек умирает для меня почти целиком, превращается в старпёра и брюзжащего старика.</p></p> <p><p>Прошлой ночью я плохо спал, у меня болело в носу, горело лицо и я думал о Гоголе. Каждый раз, …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/winter-last-day/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="hammer-a-nail">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/hammer-a-nail/">Самое сложное это забить гвоздь</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">26 февраля 2025 г. 10:59</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Сегодня за завтраком в утреннем эфире по телевидению увидел сюжет, в котором рассказывалось, что дети поколения Z, зумеры проще говоря, напрочь лишены прикладных и бытовых навыков, таких как забивание гвоздей, и при чем это общемировая тенденция, а не только наша российская. В пример приводились уроки труда в школах и кружки для детей, которые открываются в разных городах, где детей учат слесарному мастерству, проделыванию дырок в деревяшках и сборке скворечников или табуреток.</p></p> <p><p>Но эта тема натолкнула меня задуматься о вопросе более глубоко, поскольку эта проблема для меня очень близка. Я взглянул на ситуацию с позиции человека, который хоть и …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/hammer-a-nail/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="academic-eclectic">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/academic-eclectic/">Академический эклектизм и цыганское барокко</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">20 февраля 2025 г. 22:28</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>На днях наткнулся случайно на телеканале "Культура" в ночном эфире на выпуск передачи "Роман в камне". Это цикл коротких документальных фильмов о шедеврах русской и мировой архитектуры.</p></p> <p><p>Это был выпуск про усадьбу Рукавишниковых в Нижнем Новгороде. Честно сказать, я не очень интересуюсь архитектурой, и наверное выпуск прошел бы мимо моего внимания, если бы не личность и антураж владельца усадьбы.</p></p> <p><p>Заказчик миллионного дворца - 25-летний наследник колоссального состояния, доставшегося от отца. У него были разные мотивы, одним из которых было поразить даму сердца, но так или иначе, когда архитектор уточнил у него, в каком стиле строить усадьбу, заказчик, Сергей …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/academic-eclectic/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="glass-pot">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/glass-pot/">Стеклянные кастрюли и беспроводные наушники</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">16 февраля 2025 г. 22:36</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Больше всего на свете я ненавижу стеклянные кастрюли. Стеклянные кастрюли - это консьюмеризм и торжество китча. Питаться нужно скоромной пищей и готовить простые блюда, не делать культа из еды; а стеклянные кастрюли созданы исключительно для самолюбования, бахвальства и красивых фотографий в социальную сеть "Инстаграм", читай: для развращения человеческой души. Кстати, "Инстаграм" запрещен в России. Думаю, в точности так же надо запретить и стеклянные кастрюли.</p></p> <p><p>Суп или компот в стеклянной кастрюле не сварится быстрее и не будет храниться дольше. В стеклянной кастрюле нельзя взбивать тесто для блинов. Стеклянную кастрюлю, конечно, при желании можно надеть на голову так же как …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/glass-pot/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="i-love-my-watches">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/i-love-my-watches/">Я люблю свои часы!</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">14 февраля 2025 г. 14:47</span>
+                
+            </div>
+        </div>
+        
+        <div class="blog-post__thumbnail">
+            <img src="/uploads/weblog/2025/02/20/Frame_5_1.jpg">
+        </div>
+        
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/i-love-my-watches/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="white-leather">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/white-leather/">Белая кожа</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">10 февраля 2025 г. 0:14</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Я люблю кожаные вещи, например, куртки, обувь или сумки. Я люблю белые вещи, например, кроссовки. Но я совершенно не приемлю изделия из белой кожи.</p></p> <p><p>Белые кроссовки, или любая другая белая вещь, выполненная из текстиля или другого пористого и волокнистого материала, выгорает естественным образом, желтеет, в поры ткани или замши забивается пыль, и это происходит равномерно и выглядит органично. Даже грязные и отмытые, даже заношенные белые тканевые кеды через годы всё еще выглядят белыми, пусть и не такими, как в день покупки.</p></p> <p><p>Но изделия из белой кожи ведут себя совершенно иначе. В волокна белых ниток, которыми сшито изделие, забивается …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/white-leather/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="mma-sport-club">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/mma-sport-club/">Смешные единоборства</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">8 февраля 2025 г. 22:29</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Впервые за очень много лет посмотрел смешанные единоборства лиги &quot;Эй-си-эй&quot;. Смотрел сначала краем глаза, потом зацепился за бой где бились Юсуф Раисов и Артём Резников, и уже не мог оторваться! От третьего раунда словил гипервентиляцию, и остаток выпуска досматривал уже с тревожностью и очень тяжелым сердцем.</p></p> <p><p>Я совершенно не разбираюсь в единоборствах. Я равнодушен к борьбе или боксу, я не люблю сложные тактические вязкие бои, особенно с техникой бесконтактного боя и долгим обоюдным высматриванием через амбразуру надутых перчаток, где в обороне противника вознкнет брешь. Но смешанные единоборства я люблю гораздо больше, особенно в легком весе, мне нравится динамичность, …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/mma-sport-club/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+
+    <div class="pagination">
+        <table class="pagination__table" cellpadding="10" cellspacing="3" border="1">
+            <tr>
+                <td>
+                    <div class="pagination__title">Страницы:</div>
+                </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/">1</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/2">2</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                        <span class="pagination__active">3</span>
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/4">4</a>
+                            
+                        
+                    </td>
+                
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/5">5</a>
+                            
+                        
+                    </td>
+                
+            </tr>
+        </table>
+    </div>
+</div>
+
+
+                <div class="clear"></div>
+            </div>
+
+            
+<div class="footer">
+    <div class="counters">
+        <img src="/static/img/gif/PoweredByMacOSX.gif" />
+        <img src="/static/img/counters/mailru2.gif" />
+        <img src="/static/img/counters/rambler.gif" />
+        <img src="/static/img/counters/aport.gif" />
+        <img src="/static/img/counters/liveinternet.gif" />
+    </div>
+    <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+</div>
+
+        </div>
+
+        
+    </body>
+
+</html>
