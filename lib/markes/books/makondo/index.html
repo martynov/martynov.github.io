@@ -34,113 +34,128 @@
 
     <body class="body body_june-2024">
         <div class="wrapper">
-
-            
+            <div class="frameset">
+                <div class="frameset__row">
+                    <div class="frameset__col frameset__col_aside">
+                        <div class="frameset__viewport">
+                            <div class="frameset__content frameset__content_aside">
+                                <div class="frameset__aside">
+                                    
 
 <div class="aside">
-    <div class="logo">
-        <a href="/">
-            <img src="/static/img/logo.gif" width="100%"/>
-        </a>
-    </div>
+    <div class="aside__content">
 
-    <div class="charset">
-        [
-            <a href="#KOI-8">KOI-8</a>
-            |
-            <a href="#MAC">MAC</a>
-            |
-            <a href="#WIN">WIN</a>
-            |
-            <a href="#DOS">DOS</a>
-            |
-            <a href="#LAT">LAT</a>
-        ]
-    </div>
-
-    <div class="marquee">
-        <marquee id="marquee"></marquee>
-    </div>
-
-    <div class="menu">
-        <!-- <div class="larger bold">Меню:</div> -->
-        <ul>
-            <li>
-                <a href="/">Главная</a>
-            </li>
-            <li>
-                <a href="/weblog/">
-                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                    WEBLOG
-                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                </a>
-            </li>
-            <li>
-                <a href="/lib/">Прочитано</a>
-            </li>
-            <li>
-                <a href="/recipes/">Рецепты</a>
-            </li>
-            <li>
-                <a href="/jokes/">Анекдоты</a>
-            </li>
-            <li>
-                <a href="/links/">Полезные ссылки</a>
-            </li>
-            <li>
-                <a href="/guest/">Гостевая книга</a>
-            </li>
-            
-        </ul>
-    </div>
-
-    <div class="poll">
-        <div class="larger bold">Вам нравится мой сайт?</div>
-        <div>
-            <form>
-                <fieldset>
-                    <input type="radio" name="rate" value="5" id="rate-5" />
-                    <label for="rate-5">Очень нравится!!!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="4" id="rate-4" />
-                    <label for="rate-4">Хороший сайт...</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="3" id="rate-3" />
-                    <label for="rate-3">Средне!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="2" id="rate-2" />
-                    <label for="rate-2">Мне не нравится!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="1" id="rate-1" />
-                    <label for="rate-1">Сайт полный отстой!!!</label>
-                </fieldset>
-                <fieldset>
-                    <button type="button" onClick="vote()">Проголосовать</button>
-                </fieldset>
-            </form>
+        <div class="logo">
+            <a href="/">
+                <img src="/static/img/logo.gif" width="100%"/>
+            </a>
         </div>
-    </div>
-
-    <div class="calendar" id="calendar"></div>
-</div>
-
-            <div class="main">
+    
+        <div class="charset">
+            [
+                <a href="#KOI-8">KOI-8</a>
+                |
+                <a href="#MAC">MAC</a>
+                |
+                <a href="#WIN">WIN</a>
+                |
+                <a href="#DOS">DOS</a>
+                |
+                <a href="#LAT">LAT</a>
+            ]
+        </div>
+    
+        <div class="marquee">
+            <marquee id="marquee"></marquee>
+        </div>
+    
+        <div class="menu">
+            <!-- <div class="larger bold">Меню:</div> -->
+            <ul>
+                <li>
+                    <a href="/">Главная</a>
+                </li>
+                <li>
+                    <a href="/weblog/">
+                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                        WEBLOG
+                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                    </a>
+                </li>
+                <li>
+                    <a href="/lib/">Прочитано</a>
+                </li>
+                <li>
+                    <a href="/recipes/">Рецепты</a>
+                </li>
+                <li>
+                    <a href="/jokes/">Анекдоты</a>
+                </li>
+                <li>
+                    <a href="/links/">Полезные ссылки</a>
+                </li>
+                <li>
+                    <a href="/guest/">Гостевая книга</a>
+                </li>
                 
+            </ul>
+        </div>
+    
+        <div class="poll">
+            <div class="larger bold">Вам нравится мой сайт?</div>
+            <div>
+                <form>
+                    <fieldset>
+                        <input type="radio" name="rate" value="5" id="rate-5" />
+                        <label for="rate-5">Очень нравится!!!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="4" id="rate-4" />
+                        <label for="rate-4">Хороший сайт...</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="3" id="rate-3" />
+                        <label for="rate-3">Средне!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="2" id="rate-2" />
+                        <label for="rate-2">Мне не нравится!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="1" id="rate-1" />
+                        <label for="rate-1">Сайт полный отстой!!!</label>
+                    </fieldset>
+                    <fieldset>
+                        <button type="button" onClick="vote()">Проголосовать</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    
+        <div class="calendar" id="calendar"></div>
+    </div>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frameset__col frameset__col_main">
+                        <div class="frameset__viewport">
+                            <div class="frameset__content frameset__content_main">
+                                <div class="frameset__main">
+                                    <div class="main">
+                                        
 <img src="/static/img/titles/read.gif" class="heading-word-art" />
 
-                
-                
+                                        
+                                        
 <div class="breadcrumbs">
     / <a href="/lib/">Прочитано</a>
     / <span>&quot;Дорога в Макондо&quot;</span>
 </div>
 
-
-                
+                        
+                                        
 <h1>&quot;Дорога в Макондо&quot; - Габриэль Гарсиа Маркес</h1>
 
 <div>
@@ -193,8 +208,8 @@
         <div class="blockquote">
     <div class="blockquote__blockquote">
         
-        <p>И вот час Великой Мамы настал. Под пологом из припорошенного пылью маркизета, среди сбившихся полотняных простынь едва угадывалась жизнь в слабом вздымании девственных и матриархальных грудей Великой Мамы, облепленной по шею листьями целительного столетника. До пятидесяти лет Великую Маму осаждали пылкие и настойчивые поклонники, но она отвергла всех до единого, …
-        <a href="/lib/quotes/38/">Читать&nbsp;далее&nbsp;>>></a>
+        <p>Когда отец Антонио Исабель приготовил все для последнего помазания, он понял, что ему без посторонней помощи не умастить священным елеем ладони Великой Мамы, потому что она, почуяв смерть, сжала пальцы в кулаки. Напрасны были все старания племянниц, состязавшихся в ловкости и упорстве. Истово сопротивляясь, умирающая прижала к груди руку, увенчанную …
+        <a href="/lib/quotes/39/">Читать&nbsp;далее&nbsp;>>></a>
         
         
     </div>
@@ -219,19 +234,6 @@
         <div class="blockquote">
     <div class="blockquote__blockquote">
         
-        <p>Сидя у себя в спальне, вдова услышала стук и инстинктивно перевела взгляд на проволочную сетку. Уже два дня в эту спальню не проникла ни одна птица. Однако сетка была раздергана. Сеньора Ребека сочла починку сетки лишним расходом и решила подождать, пока не кончится это птичье нашествие, действовавшее ей на нервы …
-        <a href="/lib/quotes/42/">Читать&nbsp;далее&nbsp;>>></a>
-        
-        
-    </div>
-    
-</div>
-    </div>
-    
-    <div class="blockquotes-list__item">
-        <div class="blockquote">
-    <div class="blockquote__blockquote">
-        
         <p>Долгие годы Великая Мама обеспечивала социальное спокойствие и политическую стабильность в царстве Макондо благодаря трем баулам с фальшивыми избирательными бюллетенями, которые, само собой, тоже являлись неотъемлемой частью ее негласного имущества.</p>
         <a href="/lib/quotes/41/">Читать&nbsp;далее&nbsp;>>></a>
         
@@ -245,8 +247,21 @@
         <div class="blockquote">
     <div class="blockquote__blockquote">
         
-        <p>Когда отец Антонио Исабель приготовил все для последнего помазания, он понял, что ему без посторонней помощи не умастить священным елеем ладони Великой Мамы, потому что она, почуяв смерть, сжала пальцы в кулаки. Напрасны были все старания племянниц, состязавшихся в ловкости и упорстве. Истово сопротивляясь, умирающая прижала к груди руку, увенчанную …
-        <a href="/lib/quotes/39/">Читать&nbsp;далее&nbsp;>>></a>
+        <p>И вот тогда-то Великая Мама возжелала сесть в плетеную качалку и огласить свою последнюю волю. Твердым четким голосом она при свидетелях – отце Антонио Исабель и докторе – диктовала нотариусу весь реестр своих богатств, что были единственной и прочнейшей основой ее величия и всевластия. Составляя этот реестр, Никанор заполнил убористым …
+        <a href="/lib/quotes/40/">Читать&nbsp;далее&nbsp;>>></a>
+        
+        
+    </div>
+    
+</div>
+    </div>
+    
+    <div class="blockquotes-list__item">
+        <div class="blockquote">
+    <div class="blockquote__blockquote">
+        
+        <p>Сидя у себя в спальне, вдова услышала стук и инстинктивно перевела взгляд на проволочную сетку. Уже два дня в эту спальню не проникла ни одна птица. Однако сетка была раздергана. Сеньора Ребека сочла починку сетки лишним расходом и решила подождать, пока не кончится это птичье нашествие, действовавшее ей на нервы …
+        <a href="/lib/quotes/42/">Читать&nbsp;далее&nbsp;>>></a>
         
         
     </div>
@@ -285,25 +300,35 @@
 
 
 
-
-                <div class="clear"></div>
-            </div>
-
-            
+                        
+                                        <div class="clear"></div>
+                        
+                                        
 <div class="footer">
     <div class="counters">
-        <img src="/static/img/gif/PoweredByMacOSX.gif" />
+        <img src="/static/img/gif/PoweredByMacOSX.gif" align="right" />
         <img src="/static/img/counters/mailru2.gif" />
         <img src="/static/img/counters/rambler.gif" />
         <img src="/static/img/counters/aport.gif" />
         <img src="/static/img/counters/liveinternet.gif" />
     </div>
-    <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+    <div class="copyright">
+        Всё написанное является выражением субъективной позиции автора, автор не гарантирует достоверную точность, объективность и безопасность информации, всё представлено на условии AS IS (как есть). Владелец сайта и автор материалов не призывает к нарушению законов РФ, осуждает экстремизм, терроризм, насилие, расовую, религиозную или социальную дискриминацию. Материалы предназначены для лиц старше 18 (восемнадцати) лет.<br/>
+        &copy; ТЕКСТОВЫЕ И АУДИОВИЗУАЛЬНЫЕ МАТЕРИАЛЫ ЯВЛЯЮТСЯ ИНТЕЛЛЕКТУАЛЬНОЙ СОБСТВЕННОСТЬЮ АВТОРА САЙТА. КОПИРОВАНИЕ ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ РФ
+    </div>
 </div>
-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        
+        <!--
+            
+        -->
     </body>
 
 </html>

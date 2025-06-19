@@ -34,113 +34,128 @@
 
     <body class="body body_june-2024">
         <div class="wrapper">
-
-            
+            <div class="frameset">
+                <div class="frameset__row">
+                    <div class="frameset__col frameset__col_aside">
+                        <div class="frameset__viewport">
+                            <div class="frameset__content frameset__content_aside">
+                                <div class="frameset__aside">
+                                    
 
 <div class="aside">
-    <div class="logo">
-        <a href="/">
-            <img src="/static/img/logo.gif" width="100%"/>
-        </a>
-    </div>
+    <div class="aside__content">
 
-    <div class="charset">
-        [
-            <a href="#KOI-8">KOI-8</a>
-            |
-            <a href="#MAC">MAC</a>
-            |
-            <a href="#WIN">WIN</a>
-            |
-            <a href="#DOS">DOS</a>
-            |
-            <a href="#LAT">LAT</a>
-        ]
-    </div>
-
-    <div class="marquee">
-        <marquee id="marquee"></marquee>
-    </div>
-
-    <div class="menu">
-        <!-- <div class="larger bold">Меню:</div> -->
-        <ul>
-            <li>
-                <a href="/">Главная</a>
-            </li>
-            <li>
-                <a href="/weblog/">
-                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                    WEBLOG
-                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                </a>
-            </li>
-            <li>
-                <a href="/lib/">Прочитано</a>
-            </li>
-            <li>
-                <a href="/recipes/">Рецепты</a>
-            </li>
-            <li>
-                <a href="/jokes/">Анекдоты</a>
-            </li>
-            <li>
-                <a href="/links/">Полезные ссылки</a>
-            </li>
-            <li>
-                <a href="/guest/">Гостевая книга</a>
-            </li>
-            
-        </ul>
-    </div>
-
-    <div class="poll">
-        <div class="larger bold">Вам нравится мой сайт?</div>
-        <div>
-            <form>
-                <fieldset>
-                    <input type="radio" name="rate" value="5" id="rate-5" />
-                    <label for="rate-5">Очень нравится!!!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="4" id="rate-4" />
-                    <label for="rate-4">Хороший сайт...</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="3" id="rate-3" />
-                    <label for="rate-3">Средне!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="2" id="rate-2" />
-                    <label for="rate-2">Мне не нравится!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="1" id="rate-1" />
-                    <label for="rate-1">Сайт полный отстой!!!</label>
-                </fieldset>
-                <fieldset>
-                    <button type="button" onClick="vote()">Проголосовать</button>
-                </fieldset>
-            </form>
+        <div class="logo">
+            <a href="/">
+                <img src="/static/img/logo.gif" width="100%"/>
+            </a>
         </div>
-    </div>
-
-    <div class="calendar" id="calendar"></div>
-</div>
-
-            <div class="main">
+    
+        <div class="charset">
+            [
+                <a href="#KOI-8">KOI-8</a>
+                |
+                <a href="#MAC">MAC</a>
+                |
+                <a href="#WIN">WIN</a>
+                |
+                <a href="#DOS">DOS</a>
+                |
+                <a href="#LAT">LAT</a>
+            ]
+        </div>
+    
+        <div class="marquee">
+            <marquee id="marquee"></marquee>
+        </div>
+    
+        <div class="menu">
+            <!-- <div class="larger bold">Меню:</div> -->
+            <ul>
+                <li>
+                    <a href="/">Главная</a>
+                </li>
+                <li>
+                    <a href="/weblog/">
+                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                        WEBLOG
+                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                    </a>
+                </li>
+                <li>
+                    <a href="/lib/">Прочитано</a>
+                </li>
+                <li>
+                    <a href="/recipes/">Рецепты</a>
+                </li>
+                <li>
+                    <a href="/jokes/">Анекдоты</a>
+                </li>
+                <li>
+                    <a href="/links/">Полезные ссылки</a>
+                </li>
+                <li>
+                    <a href="/guest/">Гостевая книга</a>
+                </li>
                 
+            </ul>
+        </div>
+    
+        <div class="poll">
+            <div class="larger bold">Вам нравится мой сайт?</div>
+            <div>
+                <form>
+                    <fieldset>
+                        <input type="radio" name="rate" value="5" id="rate-5" />
+                        <label for="rate-5">Очень нравится!!!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="4" id="rate-4" />
+                        <label for="rate-4">Хороший сайт...</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="3" id="rate-3" />
+                        <label for="rate-3">Средне!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="2" id="rate-2" />
+                        <label for="rate-2">Мне не нравится!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="1" id="rate-1" />
+                        <label for="rate-1">Сайт полный отстой!!!</label>
+                    </fieldset>
+                    <fieldset>
+                        <button type="button" onClick="vote()">Проголосовать</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    
+        <div class="calendar" id="calendar"></div>
+    </div>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frameset__col frameset__col_main">
+                        <div class="frameset__viewport">
+                            <div class="frameset__content frameset__content_main">
+                                <div class="frameset__main">
+                                    <div class="main">
+                                        
 <img src="/static/img/titles/read.gif" class="heading-word-art" />
 
-                
-                
+                                        
+                                        
 <div class="breadcrumbs">
     / <a href="/lib/">Прочитано</a>
     / <span>Москва-Петушки</span>
 </div>
 
-
-                
+                        
+                                        
 <h1>Москва-Петушки - Венедикт Ерофеев</h1>
 
 <div>
@@ -193,6 +208,45 @@
         <div class="blockquote">
     <div class="blockquote__blockquote">
         
+        <p>— Да нет же, не поняли. Не могу же я, как вы: встать с постели, сказать во всеуслышание: «Ну, ребята, я ссать пошел!» или «Ну, ребята, я срать пошел!» Не могу же я так…</p> <p>— Да почему же ты не можешь! Мы — можем, а ты — не можешь! Выходит, …
+        <a href="/lib/quotes/64/">Читать&nbsp;далее&nbsp;>>></a>
+        
+        
+    </div>
+    
+</div>
+    </div>
+    
+    <div class="blockquotes-list__item">
+        <div class="blockquote">
+    <div class="blockquote__blockquote">
+        
+        <p>О, эфемерность! О, самое бессильное и позорное время в жизни моего народа — время от рассвета до открытия магазинов! Сколько лишних седин оно вплело во всех нас, в бездомных и тоскующих шатенов!</p>
+        <a href="/lib/quotes/57/">Читать&nbsp;далее&nbsp;>>></a>
+        
+        
+    </div>
+    
+</div>
+    </div>
+    
+    <div class="blockquotes-list__item">
+        <div class="blockquote">
+    <div class="blockquote__blockquote">
+        
+        <p>Она сама — сама сделала за меня мой выбор, запрокинувшись и погладив меня по щеке своею лодыжкою. В этом было что-то от поощрения и от игры, и от легкой пощечины. И от воздушного поцелуя — тоже что-то было. И потом — эта мутная, эта сучья белизна в глазах, белее, чем …
+        <a href="/lib/quotes/77/">Читать&nbsp;далее&nbsp;>>></a>
+        
+        
+    </div>
+    
+</div>
+    </div>
+    
+    <div class="blockquotes-list__item">
+        <div class="blockquote">
+    <div class="blockquote__blockquote">
+        
         <p>И вот — я торжественно объявляю: до конца моих дней я не предприму ничего, чтобы повторить мой печальный опыт возвышения. Я остаюсь внизу и снизу плюю на всю вашу общественную лестницу. Да. На каждую ступеньку лестницы — по плевку. Чтоб по ней подыматься, надо быть жидовскою мордою без страха и …
         <a href="/lib/quotes/68/">Читать&nbsp;далее&nbsp;>>></a>
         
@@ -206,47 +260,8 @@
         <div class="blockquote">
     <div class="blockquote__blockquote">
         
-        <p>Вот послушайте, в чем моя заветная лемма: когда мы вечером пьем, а утром не пьем, какими мы бываем вечером и какими становимся наутро? Я, например, если выпью — я весел чертовски, я подвижен и неистов, я места себе не нахожу, да. А наутро? — наутро я не просто невесел, не …
-        <a href="/lib/quotes/79/">Читать&nbsp;далее&nbsp;>>></a>
-        
-        
-    </div>
-    
-</div>
-    </div>
-    
-    <div class="blockquotes-list__item">
-        <div class="blockquote">
-    <div class="blockquote__blockquote">
-        
-        <p>Мне нравится, что у народа моей страны глаза такие пустые и выпуклые. Это вселяет в меня чувство законной гордости… Можно себе представить, какие глаза там. Где все продается и все покупается:</p> <p>…Глубоко спрятанные, притаившиеся, хищные и перепуганные глаза… Девальвация, безработица, пауперизм… Смотрят исподлобья, с неутихающей заботой и мукой — вот …
-        <a href="/lib/quotes/62/">Читать&nbsp;далее&nbsp;>>></a>
-        
-        
-    </div>
-    
-</div>
-    </div>
-    
-    <div class="blockquotes-list__item">
-        <div class="blockquote">
-    <div class="blockquote__blockquote">
-        
-        <p>— А вот и притом! С этого и началось все главное — сивуха началась вместо клико! Разночинство началось, дебош и хованщина!.. Все эти Успенские, все эти Помяловские — они без стакана не могли написать ни строчки! Я читал, я знаю! Отчаянно пили! Все честные люди России! А отчего они пили? …
-        <a href="/lib/quotes/72/">Читать&nbsp;далее&nbsp;>>></a>
-        
-        
-    </div>
-    
-</div>
-    </div>
-    
-    <div class="blockquotes-list__item">
-        <div class="blockquote">
-    <div class="blockquote__blockquote">
-        
-        <p>Исчезла грань между рассудком и сердцем, и оба в голос мне затвердили: «Поезжай, поезжай в Петушки! В Петушках — твое спасение и радость твоя, поезжай».</p> <p>«Петушки — это место, где не умолкают птицы, ни днем, ни ночью, где ни зимой, ни летом не отцветает жасмин. Первородный грех — может, он …
-        <a href="/lib/quotes/70/">Читать&nbsp;далее&nbsp;>>></a>
+        <p>Я был противоречив. С одной стороны, мне нравилось, что у них есть талия, а у нас нет никакой талии, это будило во мне — как бы это назвать? «негу», что ли? — ну да, это будило во мне негу. Но, с другой стороны, ведь они зарезали Марата перочинным ножиком, а …
+        <a href="/lib/quotes/76/">Читать&nbsp;далее&nbsp;>>></a>
         
         
     </div>
@@ -261,25 +276,35 @@
 
 
 
-
-                <div class="clear"></div>
-            </div>
-
-            
+                        
+                                        <div class="clear"></div>
+                        
+                                        
 <div class="footer">
     <div class="counters">
-        <img src="/static/img/gif/PoweredByMacOSX.gif" />
+        <img src="/static/img/gif/PoweredByMacOSX.gif" align="right" />
         <img src="/static/img/counters/mailru2.gif" />
         <img src="/static/img/counters/rambler.gif" />
         <img src="/static/img/counters/aport.gif" />
         <img src="/static/img/counters/liveinternet.gif" />
     </div>
-    <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+    <div class="copyright">
+        Всё написанное является выражением субъективной позиции автора, автор не гарантирует достоверную точность, объективность и безопасность информации, всё представлено на условии AS IS (как есть). Владелец сайта и автор материалов не призывает к нарушению законов РФ, осуждает экстремизм, терроризм, насилие, расовую, религиозную или социальную дискриминацию. Материалы предназначены для лиц старше 18 (восемнадцати) лет.<br/>
+        &copy; ТЕКСТОВЫЕ И АУДИОВИЗУАЛЬНЫЕ МАТЕРИАЛЫ ЯВЛЯЮТСЯ ИНТЕЛЛЕКТУАЛЬНОЙ СОБСТВЕННОСТЬЮ АВТОРА САЙТА. КОПИРОВАНИЕ ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ РФ
+    </div>
 </div>
-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        
+        <!--
+            
+        -->
     </body>
 
 </html>

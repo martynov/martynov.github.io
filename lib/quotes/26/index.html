@@ -34,106 +34,121 @@
 
     <body class="body body_june-2024">
         <div class="wrapper">
-
-            
+            <div class="frameset">
+                <div class="frameset__row">
+                    <div class="frameset__col frameset__col_aside">
+                        <div class="frameset__viewport">
+                            <div class="frameset__content frameset__content_aside">
+                                <div class="frameset__aside">
+                                    
 
 <div class="aside">
-    <div class="logo">
-        <a href="/">
-            <img src="/static/img/logo.gif" width="100%"/>
-        </a>
-    </div>
+    <div class="aside__content">
 
-    <div class="charset">
-        [
-            <a href="#KOI-8">KOI-8</a>
-            |
-            <a href="#MAC">MAC</a>
-            |
-            <a href="#WIN">WIN</a>
-            |
-            <a href="#DOS">DOS</a>
-            |
-            <a href="#LAT">LAT</a>
-        ]
-    </div>
-
-    <div class="marquee">
-        <marquee id="marquee"></marquee>
-    </div>
-
-    <div class="menu">
-        <!-- <div class="larger bold">Меню:</div> -->
-        <ul>
-            <li>
-                <a href="/">Главная</a>
-            </li>
-            <li>
-                <a href="/weblog/">
-                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                    WEBLOG
-                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                </a>
-            </li>
-            <li>
-                <a href="/lib/">Прочитано</a>
-            </li>
-            <li>
-                <a href="/recipes/">Рецепты</a>
-            </li>
-            <li>
-                <a href="/jokes/">Анекдоты</a>
-            </li>
-            <li>
-                <a href="/links/">Полезные ссылки</a>
-            </li>
-            <li>
-                <a href="/guest/">Гостевая книга</a>
-            </li>
-            
-        </ul>
-    </div>
-
-    <div class="poll">
-        <div class="larger bold">Вам нравится мой сайт?</div>
-        <div>
-            <form>
-                <fieldset>
-                    <input type="radio" name="rate" value="5" id="rate-5" />
-                    <label for="rate-5">Очень нравится!!!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="4" id="rate-4" />
-                    <label for="rate-4">Хороший сайт...</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="3" id="rate-3" />
-                    <label for="rate-3">Средне!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="2" id="rate-2" />
-                    <label for="rate-2">Мне не нравится!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="1" id="rate-1" />
-                    <label for="rate-1">Сайт полный отстой!!!</label>
-                </fieldset>
-                <fieldset>
-                    <button type="button" onClick="vote()">Проголосовать</button>
-                </fieldset>
-            </form>
+        <div class="logo">
+            <a href="/">
+                <img src="/static/img/logo.gif" width="100%"/>
+            </a>
         </div>
-    </div>
-
-    <div class="calendar" id="calendar"></div>
-</div>
-
-            <div class="main">
+    
+        <div class="charset">
+            [
+                <a href="#KOI-8">KOI-8</a>
+                |
+                <a href="#MAC">MAC</a>
+                |
+                <a href="#WIN">WIN</a>
+                |
+                <a href="#DOS">DOS</a>
+                |
+                <a href="#LAT">LAT</a>
+            ]
+        </div>
+    
+        <div class="marquee">
+            <marquee id="marquee"></marquee>
+        </div>
+    
+        <div class="menu">
+            <!-- <div class="larger bold">Меню:</div> -->
+            <ul>
+                <li>
+                    <a href="/">Главная</a>
+                </li>
+                <li>
+                    <a href="/weblog/">
+                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                        WEBLOG
+                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                    </a>
+                </li>
+                <li>
+                    <a href="/lib/">Прочитано</a>
+                </li>
+                <li>
+                    <a href="/recipes/">Рецепты</a>
+                </li>
+                <li>
+                    <a href="/jokes/">Анекдоты</a>
+                </li>
+                <li>
+                    <a href="/links/">Полезные ссылки</a>
+                </li>
+                <li>
+                    <a href="/guest/">Гостевая книга</a>
+                </li>
                 
+            </ul>
+        </div>
+    
+        <div class="poll">
+            <div class="larger bold">Вам нравится мой сайт?</div>
+            <div>
+                <form>
+                    <fieldset>
+                        <input type="radio" name="rate" value="5" id="rate-5" />
+                        <label for="rate-5">Очень нравится!!!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="4" id="rate-4" />
+                        <label for="rate-4">Хороший сайт...</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="3" id="rate-3" />
+                        <label for="rate-3">Средне!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="2" id="rate-2" />
+                        <label for="rate-2">Мне не нравится!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="1" id="rate-1" />
+                        <label for="rate-1">Сайт полный отстой!!!</label>
+                    </fieldset>
+                    <fieldset>
+                        <button type="button" onClick="vote()">Проголосовать</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    
+        <div class="calendar" id="calendar"></div>
+    </div>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frameset__col frameset__col_main">
+                        <div class="frameset__viewport">
+                            <div class="frameset__content frameset__content_main">
+                                <div class="frameset__main">
+                                    <div class="main">
+                                        
 <img src="/static/img/titles/read.gif" class="heading-word-art" />
 
-                
-                
+                                        
+                                        
 <div class="breadcrumbs">
     / <a href="/lib/">Прочитано</a>
     / <a href="">На Западном фронте без перемен</a>
@@ -141,8 +156,8 @@
     / <span>Просмотр цитаты</span>
 </div>
 
-
-                
+                        
+                                        
 <div class="single-quote-page">
     
 
@@ -194,25 +209,35 @@
 </div>
 
 
-
-                <div class="clear"></div>
-            </div>
-
-            
+                        
+                                        <div class="clear"></div>
+                        
+                                        
 <div class="footer">
     <div class="counters">
-        <img src="/static/img/gif/PoweredByMacOSX.gif" />
+        <img src="/static/img/gif/PoweredByMacOSX.gif" align="right" />
         <img src="/static/img/counters/mailru2.gif" />
         <img src="/static/img/counters/rambler.gif" />
         <img src="/static/img/counters/aport.gif" />
         <img src="/static/img/counters/liveinternet.gif" />
     </div>
-    <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+    <div class="copyright">
+        Всё написанное является выражением субъективной позиции автора, автор не гарантирует достоверную точность, объективность и безопасность информации, всё представлено на условии AS IS (как есть). Владелец сайта и автор материалов не призывает к нарушению законов РФ, осуждает экстремизм, терроризм, насилие, расовую, религиозную или социальную дискриминацию. Материалы предназначены для лиц старше 18 (восемнадцати) лет.<br/>
+        &copy; ТЕКСТОВЫЕ И АУДИОВИЗУАЛЬНЫЕ МАТЕРИАЛЫ ЯВЛЯЮТСЯ ИНТЕЛЛЕКТУАЛЬНОЙ СОБСТВЕННОСТЬЮ АВТОРА САЙТА. КОПИРОВАНИЕ ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ РФ
+    </div>
 </div>
-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        
+        <!--
+            
+        -->
     </body>
 
 </html>

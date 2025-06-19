@@ -34,114 +34,129 @@
 
     <body class="body body_june-2024">
         <div class="wrapper">
-
-            
+            <div class="frameset">
+                <div class="frameset__row">
+                    <div class="frameset__col frameset__col_aside">
+                        <div class="frameset__viewport">
+                            <div class="frameset__content frameset__content_aside">
+                                <div class="frameset__aside">
+                                    
 
 <div class="aside">
-    <div class="logo">
-        <a href="/">
-            <img src="/static/img/logo.gif" width="100%"/>
-        </a>
-    </div>
+    <div class="aside__content">
 
-    <div class="charset">
-        [
-            <a href="#KOI-8">KOI-8</a>
-            |
-            <a href="#MAC">MAC</a>
-            |
-            <a href="#WIN">WIN</a>
-            |
-            <a href="#DOS">DOS</a>
-            |
-            <a href="#LAT">LAT</a>
-        ]
-    </div>
-
-    <div class="marquee">
-        <marquee id="marquee"></marquee>
-    </div>
-
-    <div class="menu">
-        <!-- <div class="larger bold">Меню:</div> -->
-        <ul>
-            <li>
-                <a href="/">Главная</a>
-            </li>
-            <li>
-                <a href="/weblog/">
-                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                    WEBLOG
-                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                </a>
-            </li>
-            <li>
-                <a href="/lib/">Прочитано</a>
-            </li>
-            <li>
-                <a href="/recipes/">Рецепты</a>
-            </li>
-            <li>
-                <a href="/jokes/">Анекдоты</a>
-            </li>
-            <li>
-                <a href="/links/">Полезные ссылки</a>
-            </li>
-            <li>
-                <a href="/guest/">Гостевая книга</a>
-            </li>
-            
-        </ul>
-    </div>
-
-    <div class="poll">
-        <div class="larger bold">Вам нравится мой сайт?</div>
-        <div>
-            <form>
-                <fieldset>
-                    <input type="radio" name="rate" value="5" id="rate-5" />
-                    <label for="rate-5">Очень нравится!!!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="4" id="rate-4" />
-                    <label for="rate-4">Хороший сайт...</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="3" id="rate-3" />
-                    <label for="rate-3">Средне!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="2" id="rate-2" />
-                    <label for="rate-2">Мне не нравится!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="1" id="rate-1" />
-                    <label for="rate-1">Сайт полный отстой!!!</label>
-                </fieldset>
-                <fieldset>
-                    <button type="button" onClick="vote()">Проголосовать</button>
-                </fieldset>
-            </form>
+        <div class="logo">
+            <a href="/">
+                <img src="/static/img/logo.gif" width="100%"/>
+            </a>
         </div>
-    </div>
-
-    <div class="calendar" id="calendar"></div>
-</div>
-
-            <div class="main">
+    
+        <div class="charset">
+            [
+                <a href="#KOI-8">KOI-8</a>
+                |
+                <a href="#MAC">MAC</a>
+                |
+                <a href="#WIN">WIN</a>
+                |
+                <a href="#DOS">DOS</a>
+                |
+                <a href="#LAT">LAT</a>
+            ]
+        </div>
+    
+        <div class="marquee">
+            <marquee id="marquee"></marquee>
+        </div>
+    
+        <div class="menu">
+            <!-- <div class="larger bold">Меню:</div> -->
+            <ul>
+                <li>
+                    <a href="/">Главная</a>
+                </li>
+                <li>
+                    <a href="/weblog/">
+                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                        WEBLOG
+                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                    </a>
+                </li>
+                <li>
+                    <a href="/lib/">Прочитано</a>
+                </li>
+                <li>
+                    <a href="/recipes/">Рецепты</a>
+                </li>
+                <li>
+                    <a href="/jokes/">Анекдоты</a>
+                </li>
+                <li>
+                    <a href="/links/">Полезные ссылки</a>
+                </li>
+                <li>
+                    <a href="/guest/">Гостевая книга</a>
+                </li>
                 
+            </ul>
+        </div>
+    
+        <div class="poll">
+            <div class="larger bold">Вам нравится мой сайт?</div>
+            <div>
+                <form>
+                    <fieldset>
+                        <input type="radio" name="rate" value="5" id="rate-5" />
+                        <label for="rate-5">Очень нравится!!!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="4" id="rate-4" />
+                        <label for="rate-4">Хороший сайт...</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="3" id="rate-3" />
+                        <label for="rate-3">Средне!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="2" id="rate-2" />
+                        <label for="rate-2">Мне не нравится!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="1" id="rate-1" />
+                        <label for="rate-1">Сайт полный отстой!!!</label>
+                    </fieldset>
+                    <fieldset>
+                        <button type="button" onClick="vote()">Проголосовать</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    
+        <div class="calendar" id="calendar"></div>
+    </div>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frameset__col frameset__col_main">
+                        <div class="frameset__viewport">
+                            <div class="frameset__content frameset__content_main">
+                                <div class="frameset__main">
+                                    <div class="main">
+                                        
 <img src="/static/img/titles/read.gif" class="heading-word-art" />
 
-                
-                
+                                        
+                                        
 <div class="breadcrumbs">
     / <a href="/lib/">Прочитано</a>
     / <a href="/lib/remark/books/im-westen-nichts-neues/">На Западном фронте без перемен</a>
     / <span>Просмотр обзора</span>
 </div>
 
-
-                
+                        
+                                        
 <div class="single-review">
     <h1 class="single-review__title">На западном фронте без перемен</h1>
 
@@ -196,8 +211,8 @@
         <div class="blockquote">
     <div class="blockquote__blockquote">
         
-        <p>– На фронте было очень скверно, Пауль?</p> <p>Мама, что мне на это ответить! Ты не поймешь, никогда не постигнешь. Да тебе и незачем постигать. Скверно ли там было, спрашиваешь ты… Ты, мама…</p> <p>Я качаю головой, говорю:</p> <p>– Нет, мама, не …
-        <a href="/lib/quotes/28/">Читать&nbsp;далее&nbsp;>>></a>
+        <p>Вверх взлетают французские осветительные ракеты – и передо мной встает картина летнего вечера: из крытой галереи собора я смотрю на высокие розовые кусты, цветущие посредине дворика, где хоронят настоятелей. Вокруг каменные изваяния остановок крестного пути. Ни души, огромная тишина объемлет …
+        <a href="/lib/quotes/25/">Читать&nbsp;далее&nbsp;>>></a>
         
         
     </div>
@@ -209,8 +224,8 @@
         <div class="blockquote">
     <div class="blockquote__blockquote">
         
-        <p>Возле наших бараков расположен большой лагерь русских. Хотя он отделен от нас проволочным забором, пленные все же умудряются пробираться к нам. Держатся они очень робко и опасливо, при том что большинство бородатые, рослые и потому смахивают на побитых сенбернаров.</p> <p>Они …
-        <a href="/lib/quotes/31/">Читать&nbsp;далее&nbsp;>>></a>
+        <p>Иду домой, швыряю форму в угол, как и собирался. Достаю из шкафа штатский костюм, надеваю.</p> <p>Совершенно непривычное ощущение. Костюм коротковат и маловат, на фронте я вырос. Справиться с воротничком и галстуком никак не удается. В конце концов узел завязывает сестра. …
+        <a href="/lib/quotes/27/">Читать&nbsp;далее&nbsp;>>></a>
         
         
     </div>
@@ -225,25 +240,35 @@
 </div>
 
 
-
-                <div class="clear"></div>
-            </div>
-
-            
+                        
+                                        <div class="clear"></div>
+                        
+                                        
 <div class="footer">
     <div class="counters">
-        <img src="/static/img/gif/PoweredByMacOSX.gif" />
+        <img src="/static/img/gif/PoweredByMacOSX.gif" align="right" />
         <img src="/static/img/counters/mailru2.gif" />
         <img src="/static/img/counters/rambler.gif" />
         <img src="/static/img/counters/aport.gif" />
         <img src="/static/img/counters/liveinternet.gif" />
     </div>
-    <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+    <div class="copyright">
+        Всё написанное является выражением субъективной позиции автора, автор не гарантирует достоверную точность, объективность и безопасность информации, всё представлено на условии AS IS (как есть). Владелец сайта и автор материалов не призывает к нарушению законов РФ, осуждает экстремизм, терроризм, насилие, расовую, религиозную или социальную дискриминацию. Материалы предназначены для лиц старше 18 (восемнадцати) лет.<br/>
+        &copy; ТЕКСТОВЫЕ И АУДИОВИЗУАЛЬНЫЕ МАТЕРИАЛЫ ЯВЛЯЮТСЯ ИНТЕЛЛЕКТУАЛЬНОЙ СОБСТВЕННОСТЬЮ АВТОРА САЙТА. КОПИРОВАНИЕ ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ РФ
+    </div>
 </div>
-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        
+        <!--
+            
+        -->
     </body>
 
 </html>

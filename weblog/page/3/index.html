@@ -34,114 +34,129 @@
 
     <body class="body body_june-2024">
         <div class="wrapper">
-
-            
+            <div class="frameset">
+                <div class="frameset__row">
+                    <div class="frameset__col frameset__col_aside">
+                        <div class="frameset__viewport">
+                            <div class="frameset__content frameset__content_aside">
+                                <div class="frameset__aside">
+                                    
 
 <div class="aside">
-    <div class="logo">
-        <a href="/">
-            <img src="/static/img/logo.gif" width="100%"/>
-        </a>
-    </div>
+    <div class="aside__content">
 
-    <div class="charset">
-        [
-            <a href="#KOI-8">KOI-8</a>
-            |
-            <a href="#MAC">MAC</a>
-            |
-            <a href="#WIN">WIN</a>
-            |
-            <a href="#DOS">DOS</a>
-            |
-            <a href="#LAT">LAT</a>
-        ]
-    </div>
-
-    <div class="marquee">
-        <marquee id="marquee"></marquee>
-    </div>
-
-    <div class="menu">
-        <!-- <div class="larger bold">Меню:</div> -->
-        <ul>
-            <li>
-                <a href="/">Главная</a>
-            </li>
-            <li>
-                <a href="/weblog/">
-                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                    WEBLOG
-                    <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
-                </a>
-            </li>
-            <li>
-                <a href="/lib/">Прочитано</a>
-            </li>
-            <li>
-                <a href="/recipes/">Рецепты</a>
-            </li>
-            <li>
-                <a href="/jokes/">Анекдоты</a>
-            </li>
-            <li>
-                <a href="/links/">Полезные ссылки</a>
-            </li>
-            <li>
-                <a href="/guest/">Гостевая книга</a>
-            </li>
-            
-        </ul>
-    </div>
-
-    <div class="poll">
-        <div class="larger bold">Вам нравится мой сайт?</div>
-        <div>
-            <form>
-                <fieldset>
-                    <input type="radio" name="rate" value="5" id="rate-5" />
-                    <label for="rate-5">Очень нравится!!!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="4" id="rate-4" />
-                    <label for="rate-4">Хороший сайт...</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="3" id="rate-3" />
-                    <label for="rate-3">Средне!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="2" id="rate-2" />
-                    <label for="rate-2">Мне не нравится!</label>
-                </fieldset>
-                <fieldset>
-                    <input type="radio" name="rate" value="1" id="rate-1" />
-                    <label for="rate-1">Сайт полный отстой!!!</label>
-                </fieldset>
-                <fieldset>
-                    <button type="button" onClick="vote()">Проголосовать</button>
-                </fieldset>
-            </form>
+        <div class="logo">
+            <a href="/">
+                <img src="/static/img/logo.gif" width="100%"/>
+            </a>
         </div>
-    </div>
-
-    <div class="calendar" id="calendar"></div>
-</div>
-
-            <div class="main">
+    
+        <div class="charset">
+            [
+                <a href="#KOI-8">KOI-8</a>
+                |
+                <a href="#MAC">MAC</a>
+                |
+                <a href="#WIN">WIN</a>
+                |
+                <a href="#DOS">DOS</a>
+                |
+                <a href="#LAT">LAT</a>
+            ]
+        </div>
+    
+        <div class="marquee">
+            <marquee id="marquee"></marquee>
+        </div>
+    
+        <div class="menu">
+            <!-- <div class="larger bold">Меню:</div> -->
+            <ul>
+                <li>
+                    <a href="/">Главная</a>
+                </li>
+                <li>
+                    <a href="/weblog/">
+                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                        WEBLOG
+                        <img src="/static/img/gif/tarodux-in1.gif" valign="middle" />
+                    </a>
+                </li>
+                <li>
+                    <a href="/lib/">Прочитано</a>
+                </li>
+                <li>
+                    <a href="/recipes/">Рецепты</a>
+                </li>
+                <li>
+                    <a href="/jokes/">Анекдоты</a>
+                </li>
+                <li>
+                    <a href="/links/">Полезные ссылки</a>
+                </li>
+                <li>
+                    <a href="/guest/">Гостевая книга</a>
+                </li>
                 
+            </ul>
+        </div>
+    
+        <div class="poll">
+            <div class="larger bold">Вам нравится мой сайт?</div>
+            <div>
+                <form>
+                    <fieldset>
+                        <input type="radio" name="rate" value="5" id="rate-5" />
+                        <label for="rate-5">Очень нравится!!!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="4" id="rate-4" />
+                        <label for="rate-4">Хороший сайт...</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="3" id="rate-3" />
+                        <label for="rate-3">Средне!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="2" id="rate-2" />
+                        <label for="rate-2">Мне не нравится!</label>
+                    </fieldset>
+                    <fieldset>
+                        <input type="radio" name="rate" value="1" id="rate-1" />
+                        <label for="rate-1">Сайт полный отстой!!!</label>
+                    </fieldset>
+                    <fieldset>
+                        <button type="button" onClick="vote()">Проголосовать</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    
+        <div class="calendar" id="calendar"></div>
+    </div>
+</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="frameset__col frameset__col_main">
+                        <div class="frameset__viewport">
+                            <div class="frameset__content frameset__content_main">
+                                <div class="frameset__main">
+                                    <div class="main">
+                                        
 <img src="/static/img/titles/weblog.gif" class="heading-word-art" />
 
-                
-                
+                                        
+                                        
 <div class="breadcrumbs">
     
     / <span>WEBLOG</span>
     
 </div>
 
-
-                
+                        
+                                        
 
 <h1>Мой WEBLOG - все записи от свежих к старым</h1>
 
@@ -201,12 +216,192 @@
                         
                     </td>
                 
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/7/">7</a>
+                            
+                        
+                    </td>
+                
             </tr>
         </table>
     </div>
 
     <hr />
 
+    
+    <div class="blog-post" id="field-of-wonder">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/field-of-wonder/">Поле чудес</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">12 апреля 2025 г. 0:21</span>
+                
+            </div>
+        </div>
+        
+        <div class="blog-post__thumbnail">
+            <img src="/uploads/weblog/2025/04/27/Screenshot_2025-04-27_at_12.19.52AM.jpg">
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Вы только полюбуйтесь. Заметил новое в "Поле чудес" - девушки-открывательницы букв перед открытием плитки заглядывает, что там за буква. Позор, раньше им такого не позволяли!</p></p> <p><p>Помните, как было? Выходит в студию высокая стройная роскошная девушка, как богиня, в сияющем блёстками платье, с золотыми локонами, она вне возраста и времени; как жрица и хранительница Поля, властная над всеми Чудесами. С грацией царицы походкой от бедра, она проходит к сакральному табло. Она идеальна и выверена в каждом взгляде и в каждом движении - как гимнастка с обручем или с лентой на Олимпийских играх - с такой же хирургической точностью и …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/field-of-wonder/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="olymic-school">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/olymic-school/">Апрельская олимпиада по информатике</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">5 апреля 2025 г. 6:00</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Первое апрельское потепление, именно апрельское, а не мартовское или майское, напоминает мне школьное детство, средние классы, когда я только начинал заниматься веб-вёрсткой и дизайном. Я читал тогда Лебедева, и до сих пор люблю его "Ководство". Я считаю это не только грандиозным памятником эпохе интернета середины нулевых, но и отличным материалом для воспитания любви к деталям в начинающем айтишнике. Я тогда еще не был знаком с объектно-ориентированным программированием, но уже знал как появился амперсанд и понимал разницу между дефисом и длинным тире.</p></p> <p><p>Как-то случайно я тогда отобрался на городской этап олимпиады по информатике. Олимпиада проводилась местным педагогическим институтом по …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/olymic-school/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="tea">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/tea/">Чай</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">4 апреля 2025 г. 1:32</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Я пробовал разный кофе, растворимый и молотый, в кафе и домашнего приготовления, тот который самый крепкий, и тот который со сладкой пеной, но почти всегда я чувствую после кофе кислое послевкусие. С другой стороны, я не чувствую преимуществ кофе, он меня не бодрит, и в этой связи все преимущества кофе для меня исчерпаны. Пить кофе мне разрешили только в шестнадцать лет - бабушка говорила, что кофе вредно для здоровья - поэтому с детства я не приучен к кофе и не испытываю к нему тяги. Знающие меня близко люди в курсе, что в той же степени, в какой я …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/tea/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="parking">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/parking/">Площадь павших борцов</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">2 апреля 2025 г. 5:02</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Прочитал новость о том, что в Волгограде на площади Павших борцов - главной центральной и самой большой площади города - запретили и закрыли громадную парковку.</p></p> <p><p>Мало было автомобилистам ставить машины на тротуарах и в зелёной зоне. Мало занимать место во дворах многоквартирных домов, которое могло быть использовано для спортивной площадки или озеленения и радовать всех жильцов дома. Всего мало - надо еще парковку на центральной городской площади. Что у нас здесь? Полюбуйтесь: Новый Экспериментальный Театр, гостницы "Волгоград" и "Интурист", Аллея геров и Вечный огонь, Универмаг и Главпочтамт, Вокзал виднеется за городским садом, а в центре композиции стоянка для …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/parking/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="seriously">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/seriously/">Серьёзно</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">31 марта 2025 г. 4:28</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Одно из самых удивительных слов, на которые никогда нарочно не подумаешь, но которое является заимствованным в русском языке, это слово <em>серьёзно</em>. Оно произошло от латинского <em>serieuse</em> с таким же значеним, и с этим знанием уже совершенно невозможно перестать слышать картавую французскую "р" в слоге "рьё".</p></p> <p><p>Слишком уж оно обрусело, обросло суффиксами и приставками - серьёзный, всерьёз, серьёзничать, несерьёзный. Даже буквой "ё" разжилось, чтобы совсем уж сойти за своего.</p></p> <p><p>Я радикальный противник заимоствований в языке, и хоть убей, никак не могу понять, почему русский язык стал богаче и красивее, когда в нём появились слова "кринж", "ту мач", "вайб", "бердвотчинг" …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/seriously/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="leave-or-stay">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/leave-or-stay/">Перейти или остаться</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">29 марта 2025 г. 2:46</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Много лет назад читал о том, что эффективность контекстной рекламы в вебе снижается из-за эффекта, который был назван "баннерной слепотой" - опытный пользователь с годами привыкает, что этот мерцающий квадрат с гифкой это реклама таблеток для потенции, и подсознательно брезгует даже касаться взглядом подобных блоков в сайдбаре. В наши годы я бы перефразировал этот эффект, расширив его, и назвав модально-попапной слепотой.</p></p> <p><p>В девяностых разработчики интерфейсов считали количество кликов до достижения цели на сайте, и расстояние между ключевых кнопок. Удивительно, как поколение разработчиков интерфейсов, воспитанное на книгах той эпохи, выродилось в формошлёпов, залётных со Скиллбокса, которые забили не только …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/leave-or-stay/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="today-tv">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/today-tv/">Завтра в 18:00</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">23 марта 2025 г. 19:02</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Всегда путаюсь, когда слышу в эфире телевидения слово "завтра" в анонсе какого-то события. Дело в том, что телевизионщики считают время иначе, и условное "сегодня" ровно в полночь с боем часов не превратится в тыкву, и продолжит тянуться примерно до трех-четырех часов ночи, пока точно не уснут все зрители. Поэтому в третьем часу ночи можно услышать анонс телепремьеры, которая стоится, цитирую: "завтра в 15:00", но вовсе не через полтора суток, а через двенадцать часов.</p></p> <p><p>Когда смотрю "Матч-ТВ", порой вздрагиваю от слова "сегодня" в анонсах спортивных событий - не знаю, специфика это спортивного канала, или местечковая импровизация, но их времяисчисление …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/today-tv/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
+    
+    <div class="blog-post" id="happy-birthdays">
+        <div class="blog-post__header">
+            <h2 class="blog-post__title">
+                <a href="/weblog/happy-birthdays/">Дни рождений</a>
+            </h2>
+            <div class="blog-post__meta">
+                <span class="blog-post__date date">20 марта 2025 г. 22:48</span>
+                
+            </div>
+        </div>
+        
+        
+        
+        <div class="blog-post__content"><p><p>Очень люблю поздравлять людей с днями рождений. Я много внимания уделяю всему, что знаю о человеке, его увлечениям и его деятельности, всегда составляю как можно более релевантное поздравление и заранее репетирую текст поздравления перед зеркалом.</p></p> <p><p>У меня хорошая память на даты, и я помню почти все даты, особенно дни рождения. Правда, мне плохо даются даты, совершившиеся в двадцатых числах любого месяца, но и о них я всегда помню, лишь в худшем случае иногда путаю.</p></p> <p><p>Одновременно с этим я не люблю поздравлять людей <em>каждый год</em>. Я поздравляю людей с днём рождения, но зачастую только один раз.</p></p> <p><p>Часто мне кажется, …</div>
+        
+        <div class="blog-post__footer">
+            <a href="/weblog/happy-birthdays/">Открыть полностью >>></a>
+        </div>
+    </div>
+    <hr />
     
     <div class="blog-post" id="i-dont-understand">
         <div class="blog-post__header">
@@ -246,174 +441,6 @@
         
         <div class="blog-post__footer">
             <a href="/weblog/wooden-cutting-boards/">Открыть полностью >>></a>
-        </div>
-    </div>
-    <hr />
-    
-    <div class="blog-post" id="telegram-folders">
-        <div class="blog-post__header">
-            <h2 class="blog-post__title">
-                <a href="/weblog/telegram-folders/">Папки в Телеграм</a>
-            </h2>
-            <div class="blog-post__meta">
-                <span class="blog-post__date date">15 марта 2025 г. 2:56</span>
-                
-            </div>
-        </div>
-        
-        
-        
-        <div class="blog-post__content"><p><p>Ума не приложу, почему Телеграм занимается ерундой типа смайликов или стикеров, но не сделает три реально важные функции.</p></p> <p><p>Первая - хранение настроек каждого пользователя на сервере, а не на клиенте. Сейчас не удобно: переустановил Телеграм, обнулил смартфон, зашел с нового устройства - и изволь каждый раз снова искать в настройках и указывать, как считать чаты, что отображать в счетчике и по какому шорткату отправлять сообщения. А если что-то забыл настроить, то на разных устройствах так и будет работать по-разному, и крутись как хочешь.</p></p> <p><p>Вторая - отключение звука на папках. Замьютил отдельную папку с рабочими чатами, и ушел отдыхать …</div>
-        
-        <div class="blog-post__footer">
-            <a href="/weblog/telegram-folders/">Открыть полностью >>></a>
-        </div>
-    </div>
-    <hr />
-    
-    <div class="blog-post" id="dates-in-web">
-        <div class="blog-post__header">
-            <h2 class="blog-post__title">
-                <a href="/weblog/dates-in-web/">Вспоминаю даты</a>
-            </h2>
-            <div class="blog-post__meta">
-                <span class="blog-post__date date">15 марта 2025 г. 2:42</span>
-                
-            </div>
-        </div>
-        
-        
-        
-        <div class="blog-post__content"><p><p>Всегда, когда я вижу где-нибудь на сайте точную дату, мой мозг неконтролируемо цепляется за неё и начинает распутывать воспоминания, связанные с указанной датой, месяцем или промежутком времени.</p></p> <p><p>Когда какой-то комментарий был написан, я работал там-то и там-то. Когда эта статья была опубликована, я общался с теми-то и ходил туда-то. Когда этот вопрос на форуме был задан, я купил то-то и то-то, побывал там-то и мечтал о том-то.</p></p> <p><p>Это немного перекликается с предыдущей записью, но это мой личный сценарий, не думаю что он актуален еще для кого-то. Просто я очень люблю точность. Особенно при указании дат в сети "Интернет".</p></p></div>
-        
-        <div class="blog-post__footer">
-            <a href="/weblog/dates-in-web/">Открыть полностью >>></a>
-        </div>
-    </div>
-    <hr />
-    
-    <div class="blog-post" id="five-days-ago">
-        <div class="blog-post__header">
-            <h2 class="blog-post__title">
-                <a href="/weblog/five-days-ago/">Пять дней назад и даты в сети &quot;Интернет&quot;</a>
-            </h2>
-            <div class="blog-post__meta">
-                <span class="blog-post__date date">15 марта 2025 г. 2:16</span>
-                
-            </div>
-        </div>
-        
-        
-        
-        <div class="blog-post__content"><p><p>Одна из вещей, которые я на дух не переношу в сети "Интернет", это человекочитаемые относительные даты, когда вместо конкретной даты и времени события отображается надпись в духе "пять дней назад" или "в прошлом месяце".</p></p> <p><p>Особенно я не переношу человекочитаемые даты в около-технических интерфейсах. Мне надо посмотреть точную дату и время коммитов в репозитой, или по списку файлов понять когда какие файлы обновлялись, а там указано - три недели назад. Когда это было, в субботу или в понедельник? В один день или в разные? В рабочее время или в третьем часу ночи? Изволь навести курсор на каждую строчку, подождать …</div>
-        
-        <div class="blog-post__footer">
-            <a href="/weblog/five-days-ago/">Открыть полностью >>></a>
-        </div>
-    </div>
-    <hr />
-    
-    <div class="blog-post" id="away-goal">
-        <div class="blog-post__header">
-            <h2 class="blog-post__title">
-                <a href="/weblog/away-goal/">Правило выездного гола</a>
-            </h2>
-            <div class="blog-post__meta">
-                <span class="blog-post__date date">11 марта 2025 г. 23:01</span>
-                
-            </div>
-        </div>
-        
-        
-        
-        <div class="blog-post__content"><p><p>У меня была знакомая, с которой мы иногда смотрели футбол, и она никак не могла понять или принять, почему в футболе (в любом спорте) преимущество всегда у команды, которая играет дома. Ей вспоминалась пословица про то, что дома стены греют, и загорался рубильник в голове, подростковый нонконформизм никак не мог согласиться со своим родителем, который в её детстве, верно, многократно упоминал эту пословицу, и своей навязчивостью отравил эту мудрость. Тогда же я сформулировал для себя понимание, что хорошее и успешное родительство - это когда твои дети не боятся быть на тебя похожими. Когда-нибудь напишу об этом отдельно.</p></p> <p><p>Я …</div>
-        
-        <div class="blog-post__footer">
-            <a href="/weblog/away-goal/">Открыть полностью >>></a>
-        </div>
-    </div>
-    <hr />
-    
-    <div class="blog-post" id="etc">
-        <div class="blog-post__header">
-            <h2 class="blog-post__title">
-                <a href="/weblog/etc/">И так далее</a>
-            </h2>
-            <div class="blog-post__meta">
-                <span class="blog-post__date date">8 марта 2025 г. 20:56</span>
-                
-            </div>
-        </div>
-        
-        
-        
-        <div class="blog-post__content"><p><p>Терпеть не могу, когда люди говорят "и так далее", но перед этим называют единственный предмет или вещь.</p></p> <p><p><em>"Купи молоко, и так далее"</em></p></p> <p><p>И <em>как</em> далее? По какому критерию я должен продолжить эту последовательность?</p></p> <p><p>Молоко, яйца, муку, и так далее?</p></p> <p><p>Молоко, сыр, масло, творог, и так далее?</p></p> <p><p>Молоко, лимонад, воду, квас, и так далее?</p></p> <p><p>Молоко, кошачий корм, наполнитель для туалета, когтеточку, и так далее?</p></p></div>
-        
-        <div class="blog-post__footer">
-            <a href="/weblog/etc/">Открыть полностью >>></a>
-        </div>
-    </div>
-    <hr />
-    
-    <div class="blog-post" id="live-until-summer">
-        <div class="blog-post__header">
-            <h2 class="blog-post__title">
-                <a href="/weblog/live-until-summer/">Неужели доживём до лета</a>
-            </h2>
-            <div class="blog-post__meta">
-                <span class="blog-post__date date">8 марта 2025 г. 20:25</span>
-                
-            </div>
-        </div>
-        
-        
-        
-        <div class="blog-post__content"><p><p>Иногда в моменты долгой беспросветной зимы, в ранние вечера холодного времени года, в ноябре или в феврале, в марте или в январе, ловлю себя на мысли - неужели когда-нибудь настанет лето?</p></p> <p><p>Неужели я доживу до лета? Неужели когда-нибудь <em>еще раз</em> будет лето?</p></p> <p><p>Неужели до лета не начнется война, меня не зарежут в подворотне, не собьет машина, я не отравлюсь? Неужели до лета нейросети не отнимут у меня работу и я не повешусь из-за нищеты и безнадёги? Неужели я встречу лето в этих же стенах, не уеду никуда и не женюсь?</p></p> <p><p>И кажется, что зима это грозовой перевал, который …</div>
-        
-        <div class="blog-post__footer">
-            <a href="/weblog/live-until-summer/">Открыть полностью >>></a>
-        </div>
-    </div>
-    <hr />
-    
-    <div class="blog-post" id="access-restricted">
-        <div class="blog-post__header">
-            <h2 class="blog-post__title">
-                <a href="/weblog/access-restricted/">&quot;Почта России&quot; и &quot;РЖД&quot;</a>
-            </h2>
-            <div class="blog-post__meta">
-                <span class="blog-post__date date">2 марта 2025 г. 19:06</span>
-                
-            </div>
-        </div>
-        
-        
-        
-        <div class="blog-post__content"><p><p>В продолжение вчерашней истории о сайте "РЖД".</p></p> <p><p>Три года назад куча российских сайтов, приближенных к государственным структурам и компаниям, закрыли доступ посетителям с иностранных айпи. Можно понять - это помогло бы избежать хакерских атак из-за рубежа.</p></p> <p><p>Я сокрушался в первый раз, когда с инстранного айпи внезапно не открылся сайт "Почты России". Три года назад он был заблокирован и самой Великобританией; теперь та сторона разблокировала, но заблокировала эта. Корреспонденция и посылки за рубеж ходят в обе стороны, но иностранец не сможет трекнуть вашу посылку, потому что почта решила открываться только для российских айпи-адресов.</p></p> <p><p>Но сегодня смотрел сайт РЖД, и …</div>
-        
-        <div class="blog-post__footer">
-            <a href="/weblog/access-restricted/">Открыть полностью >>></a>
-        </div>
-    </div>
-    <hr />
-    
-    <div class="blog-post" id="select-dates">
-        <div class="blog-post__header">
-            <h2 class="blog-post__title">
-                <a href="/weblog/select-dates/">Выберите даты</a>
-            </h2>
-            <div class="blog-post__meta">
-                <span class="blog-post__date date">1 марта 2025 г. 16:49</span>
-                
-            </div>
-        </div>
-        
-        
-        
-        <div class="blog-post__content"><p><p>Терпеть не могу интерфейсы бронирования жилья, где для обязательного просмотра гостиниц, номеров, приблизительных цен или услуг нужно указывать даты начала и конца бронирования.</p></p> <p><p>Это отсекает огромную долю пользователей со сценариями, которые не подразумевают покупку в конце сессии. Может, клиент еще не оформил себе отпуск, и может сдвинуть даты на несколько недель вперёд или назад ради лучшего размещения? Даже если клиент оформил отпуск, вдруг он готов подвинуться на пару дней ради более выгодной цены? Может, для клиента имеет первоочередную важность именно отель? Может, в конце концов, клиент зашел посмотреть интерьеры гостиниц или помечтать о путешествии? У всех этих людей …</div>
-        
-        <div class="blog-post__footer">
-            <a href="/weblog/select-dates/">Открыть полностью >>></a>
         </div>
     </div>
     <hr />
@@ -472,30 +499,48 @@
                         
                     </td>
                 
+                    <td>
+                        
+                            
+                            <a class="pagination__link" href="/weblog/page/7/">7</a>
+                            
+                        
+                    </td>
+                
             </tr>
         </table>
     </div>
 </div>
 
-
-                <div class="clear"></div>
-            </div>
-
-            
+                        
+                                        <div class="clear"></div>
+                        
+                                        
 <div class="footer">
     <div class="counters">
-        <img src="/static/img/gif/PoweredByMacOSX.gif" />
+        <img src="/static/img/gif/PoweredByMacOSX.gif" align="right" />
         <img src="/static/img/counters/mailru2.gif" />
         <img src="/static/img/counters/rambler.gif" />
         <img src="/static/img/counters/aport.gif" />
         <img src="/static/img/counters/liveinternet.gif" />
     </div>
-    <div class="copyright">&copy; КОПИРОВАНИЕ ТЕКСТОВЫХ И АУДИОВИЗУАЛЬНЫХ МАТЕРИАЛОВ САЙТА ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ</div>
+    <div class="copyright">
+        Всё написанное является выражением субъективной позиции автора, автор не гарантирует достоверную точность, объективность и безопасность информации, всё представлено на условии AS IS (как есть). Владелец сайта и автор материалов не призывает к нарушению законов РФ, осуждает экстремизм, терроризм, насилие, расовую, религиозную или социальную дискриминацию. Материалы предназначены для лиц старше 18 (восемнадцати) лет.<br/>
+        &copy; ТЕКСТОВЫЕ И АУДИОВИЗУАЛЬНЫЕ МАТЕРИАЛЫ ЯВЛЯЮТСЯ ИНТЕЛЛЕКТУАЛЬНОЙ СОБСТВЕННОСТЬЮ АВТОРА САЙТА. КОПИРОВАНИЕ ЗАПРЕЩЕНО И ПРЕСЛЕДУЕТСЯ ПО ЗАКОНУ РФ
+    </div>
 </div>
-
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        
+        <!--
+            
+        -->
     </body>
 
 </html>
